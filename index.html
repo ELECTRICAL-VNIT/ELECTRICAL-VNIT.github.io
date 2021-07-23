@@ -1,88 +1,225 @@
+<!DOCTYPE html>
 <html>
-  <head>
-     <title>Time Table</title>
-  </head>
-  <style>
-    td{
-      text-align : center;
-      color:blue;
-      height: 42;
-    }
-  </style>
+<head>
+  <meta charset="utf-8">
+  <title>Time Table</title>
+</head>
+<style>
+	html,
+	body {
+		height: 100%;
+	}
+
+	body {
+		margin: 0;
+		background: linear-gradient(45deg, #49a09d, #5f2c82);
+		font-family: sans-serif;
+		font-weight: 100;
+	}
+
+	.container {
+		position: relative;
+		// top: 50%;
+		// left: 50%;
+		// transform: translate(-50%, -50%);
+	}
+
+	table {
+		text-align: center;
+		height: 42;
+		// width: 800px;
+		border-collapse: collapse;
+		// overflow: hidden;
+		box-shadow: 0 0 20px rgba(0,0,0,0.1);
+	}
+
+	th, td {
+		padding: 15px;
+		background-color: rgba(255,255,255,0.2);
+		color: #fff;
+	}
+
+	th {
+		background-color: #55608f;
+	}
+
+	td {
+		transition: 0.25s;
+	}
+
+	td:hover, td:active {
+		transform:scale(1.3,1.3);
+		background-color: rgb(94, 38, 188);
+        cursor: pointer;
+	} 
   
-  <body bgcolor="white">
-    <H1><FONT COLOR="DARKCYAN"><CENTER>EEE 2<sup>nd</sup> YEAR TIME TABLE (S-21)</FONT></H1>
-      <script type="text/javascript" src="https://www.counters-free.net/count/821b"></script><br>
-<!--  <a href='https://www.doktorweigl.de'>Krankheitsbescherden - Infos</a> <script type='text/javascript' src='https://whomania.com/ctr?id=e9115724e6aee437ab5276eec782c3080acf1768'></script> -->
-      <p>
-      <table border="2" cellspacing="3" align="center">
+  td table {
+    box-shadow: 0 0;
+  }
+  td td {
+    background-color: transparent;
+  }
+
+  .noHover {
+    pointer-events: none;
+  }
+
+</style>
+
+<script>
+
+// Slot A
+function slotA() {
+  var msg = "There's no Class now, Enjoy."
+  alert(msg);
+}
+// Slot B
+function slotB() {
+  var msg = "There's no Class now, Enjoy."
+  alert(msg);
+}
+// Electrical Machines
+function slotC() {
+  var msg = "There's no Class now, Enjoy."
+  alert(msg);
+  // location.href='https://abd-01.github.io/404.html'
+}
+// Electrical Power Systems II
+function slotD() {
+  var msg = "There's no Class now, Enjoy."
+  alert(msg);
+  // location.href='https://abd-01.github.io/404.html'
+}
+// Control System I
+function slotE() {
+  var msg = "There's no Class now, Enjoy."
+  alert(msg);
+  // location.href='https://abd-01.github.io/404.html'
+}
+// Electrical Power Distribution System
+function slotFa() {
+  var msg = "There's no Class now, Enjoy."
+  alert(msg);
+  // location.href='https://abd-01.github.io/404.html'
+}
+// Optimization Techniques
+function slotFb() {
+  var msg = "There's no Class now, Enjoy."
+  alert(msg);
+  // location.href='https://abd-01.github.io/404.html'
+}
+// Electrical Machine Design
+function slotG() {
+  var msg = "There's no Class now, Enjoy."
+  alert(msg);
+  // location.href='https://abd-01.github.io/404.html'
+}
+// Industrial Automation
+function slotH() {
+  var msg = "There's no Class now, Enjoy."
+  alert(msg);
+  // location.href='https://abd-01.github.io/404.html'
+}
+// Empty
+function slot() {
+  var msg = "There's no Class now, Enjoy."
+  alert(msg);
+}
+</script>
+  
+  
+<body>
+	<H1><FONT COLOR="WHITE"><CENTER>EEE 3<sup>rd</sup> YEAR TIME TABLE (W-21)</FONT></H1>
+
+	<script type="text/javascript" src="https://www.counters-free.net/count/8z27"></script><b>
+
+	<div class="container">
+    <table>
+      <thead>
         <tr>
-         <td></td>
-         <td style="color:black;">MONDAY</td>
-         <td style="color:black;">TUESDAY</td>
-         <td style="color:black;">WEDNESDAY</td>
-         <td style="color:black;">THURSDAY</td>
-         <td style="color:black;">FRIDAY</td>
-         <td style="color:black;">SATURDAY</td>
+          <td onclick="slot()"></td>
+          <th>09:00 - 09:55</th>
+          <th>10:00 - 10:55</th>
+          <th>11:00 - 11:55</th>
+          <th>12:00 - 12:55</th>
+          <th>13:00 - 13:55</th>
+          <th>14:00 - 14:55</th>
+          <th>15:00 - 15:55</th>
+          <th>16:00 - 16:55</th>
+          <th>17:00 - 17:55</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>MONDAY</th>
+          <td onclick="slotA()">---</td>
+          <td onclick="slotG()">EMD</td>
+          <td onclick="slotE()">Control System I</td>
+          <td onclick="slotC()">EM II</td>
+          <td rowspan="6" class="noHover"><br><br><br><br>B<br>R<br>E<br>A<br>K</td>
+          <td onclick="slotH()">Industrial Automation</td>
+          <td></td>
+          <td onclick="slot()"></td>
+          <td onclick="slot()"></td>
         </tr>
         <tr>
-         <td style="color:black;">09:00 - 09:55 </td>
-         <td>-----</td>
-         <td><a href="javascript:void(0)" onclick="location.href='https://abd-01.github.io/Winter-20-TimeTable/'">D S</a></td>
-         <td><a href="javascript:void(0)" onclick="location.href='https://abd-01.github.io/Winter-20-TimeTable/'">Digital Circuits</a></td>
-         <td><a href="javascript:void(0)" onclick="location.href='https://abd-01.github.io/Winter-20-TimeTable/'">Power Electronics</a></td>          
-         <td><a href="javascript:void(0)" onclick="location.href='https://abd-01.github.io/Winter-20-TimeTable/'">N M P T</a></td>
-         <td>-----</td>
+          <th>TUESDAY</th>
+          <td onclick="slotB()">---</td>
+          <td onclick="slotH()">Industrial Automation</td>
+          <td><table><tr><td onclick="slotFa()">EPDS</td><td onclick="slotFb()">OT</td></tr></table></td>
+          
+          <td onclick="slotD()">EPS II</td>
+          <td onclick="slotA()">---</td>
+          <td onclick="slotE()">Control System I</td>
+          <td onclick="slot()"></td>
+          <td onclick="slot()"></td>
         </tr>
         <tr>
-         <td style="color:black;">10:00 - 10:55 </td>
-         <td><a href="javascript:void(0)" onclick="location.href='https://vnit.webex.com/vnit/j.php?MTID=mc63d13e168cdcb03e62b02ff516d10cc'">EPS-1</a></td>
-         <td><a href="javascript:void(0)" onclick="location.href='https://abd-01.github.io/Winter-20-TimeTable/'">Electrical Machines-1</a></td>
-         <td>-----</td>          
-         <td><a href="javascript:void(0)" onclick="location.href='https://abd-01.github.io/Winter-20-TimeTable/'">DS</a></td>
-         <td><a href="javascript:void(0)" onclick="location.href='https://abd-01.github.io/Winter-20-TimeTable/'">Digital Circuits</a></td>
-         <td><a href="javascript:void(0)" onclick="location.href='https://abd-01.github.io/Winter-20-TimeTable/'">Power Electronics</a></td>
-         </tr>
-        <tr>
-         <td style="color:black;">11:00 - 11:55 </td>
-         <td><a href="javascript:void(0)" onclick="location.href='https://vnit.webex.com/vnit/j.php?MTID=m7ad73ff0891342e67b380e293df85b40'">N M P T</a></td>
-         <td><a href="javascript:void(0)" onclick="location.href='https://abd-01.github.io/Winter-20-TimeTable/'">PSP</a> / <a href="javascript:void(0)" onclick="location.href='https://abd-01.github.io/Winter-20-TimeTable/'">EPU</a></td>
-         <td><a href="javascript:void(0)" onclick="location.href='https://abd-01.github.io/Winter-20-TimeTable/'">EPS-1</a></td>
-         <td><a href="javascript:void(0)" onclick="location.href='https://abd-01.github.io/Winter-20-TimeTable/'">Electrical Machines-1</a></td>
-         <td>-----</td>
-         <td><a href="javascript:void(0)" onclick="location.href='https://abd-01.github.io/Winter-20-TimeTable/'">D S</a></td>
+          <th>WEDNESDAY</th>
+          <td onclick="slotC()">EM II</td>
+          <td onclick="slotA()">---</td>
+          <td onclick="slotG()">EMD</td>
+          <td onclick="slotE()">Control System I</td>
+          <td onclick="slotB()">---</td>
+          <td><table><tr><td onclick="slotFa()">EPDS</td><td onclick="slotFb()">OT</td></tr></table></td>
+          <td onclick="slot()"></td>
+          <td onclick="slot()"></td>
         </tr>
         <tr>
-         <td style="color:black;">12:00 - 12:55 </td>
-         <td><a href="javascript:void(0)" onclick="location.href='https://abd-01.github.io/Winter-20-TimeTable/'">Digital Circuits</a></td>          
-         <td><a href="javascript:void(0)" onclick="location.href='https://abd-01.github.io/Winter-20-TimeTable/'">Power Electronics</a></td>
-         <td><a href="javascript:void(0)" onclick="location.href='https://abd-01.github.io/Winter-20-TimeTable/'">N M P T</a></td>
-         <td><a href="javascript:void(0)" onclick="location.href='https://abd-01.github.io/Winter-20-TimeTable/'">PSP</a> / <a href="javascript:void(0)" onclick="location.href='https://abd-01.github.io/Winter-20-TimeTable/'">EPU</a></td>
-         <td><a href="javascript:void(0)" onclick="location.href='https://abd-01.github.io/Winter-20-TimeTable/'">EPS-1</a></td>
-         <td><a href="javascript:void(0)" onclick="location.href='https://abd-01.github.io/Winter-20-TimeTable/'">Electrical Machines-1</a></td>
+          <th>THURSDAY</th>
+          <td onclick="slotD()">EPS II</td>
+          <td onclick="slotB()">---</td>
+          <td onclick="slotH()">Industrial Automation</td>
+          <td><table><tr><td onclick="slotFa()">EPDS</td><td onclick="slotFb()">OT</td></tr></table></td>
+          <td onclick="slotC()">EM II</td>
+          <td onclick="slotG()">EMD</td>
+          <td onclick="slot()"></td>
+          <td onclick="slot()"></td>
         </tr>
-       <tr>
-       <td style="color:black;">13:00 - 13:55 </td>
-       <td colspan="6" style="color:black;">BREAK</td>
-      </tr>
-      <tr>
-       <td style="color:black;">14:00 - 14:55 </td>
-       <td><a href="javascript:void(0)" onclick="location.href='https://abd-01.github.io/Winter-20-TimeTable/'">Electrical Machines-1</a></td>
-       <td>-----</td>        
-       <td><a href="javascript:void(0)" onclick="location.href='https://abd-01.github.io/Winter-20-TimeTable/'">D S</a></td>
-       <td><a href="javascript:void(0)" onclick="location.href='https://abd-01.github.io/Winter-20-TimeTable/'">Digital Circuits</a></td>            
-       <td><a href="javascript:void(0)" onclick="location.href='https://abd-01.github.io/Winter-20-TimeTable/'">Power Electronics</a></td>
-       <td>-----</td>
-      </tr>
-      <tr>
-       <td style="color:black;">15:00 - 15:55 </td>
-       <td><a href="javascript:void(0)" onclick="location.href='https://abd-01.github.io/Winter-20-TimeTable/'">PSP</a></td>
-       <td>-----</td>
-       <td><a href="javascript:void(0)" onclick="location.href='https://abd-01.github.io/Winter-20-TimeTable/'">PSP</a> / <a href="javascript:void(0)" onclick="location.href='https://abd-01.github.io/Winter-20-TimeTable/'">EPU</a></td>
-       <td><a href="javascript:void(0)" onclick="location.href='https://abd-01.github.io/Winter-20-TimeTable/'">EPS-1</a></td>
-       <td><a href="javascript:void(0)" onclick="location.href='https://abd-01.github.io/Winter-20-TimeTable/'">N M P T</a></td>
-       <td>-----</td>
-      </tr>
+        <tr>
+          <th>FRIDAY</th>
+          <td onclick="slotE()">Control System I</td>
+          <td onclick="slotC()">EM II</td>
+          <td onclick="slotA()">---</td>
+          <td onclick="slotG()">EMD</td>
+          <td onclick="slotD()">EPS II</td>
+          <td onclick="slot()"></td>
+          <td onclick="slot()"></td>
+          <td onclick="slot()"></td>
+        </tr>
+        <tr>
+          <th>SATURDAY</th>
+          <td><table><tr><td onclick="slotFa()">EPDS</td><td onclick="slotFb()">OT</td></tr></table></td>
+          <td onclick="slotD()">EPS II</td>
+          <td onclick="slot()">---</td>
+          <td onclick="slotH()">Industrial Automation</td>
+          <td onclick="slot()">---</td>
+          <td onclick="slot()">---</td>
+          <td onclick="slot()"></td>
+          <td onclick="slot()"></td>
+        </tr>
+      </tbody>
     </table>
-  </body>    
-</html>
+		</div>
+    <br><br><br><br><br>
+</body>

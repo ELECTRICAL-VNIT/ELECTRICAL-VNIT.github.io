@@ -1,1 +1,2 @@
-<H1><FONT COLOR="DARKCYAN"><CENTER>EEE 2<sup>nd</sup> YEAR TIME TABLE (S-21)</FONT></H1>
+<H1><FONT COLOR="DARKCYAN"><CENTER>EEE ACADEMIC TIME TABLE</FONT></H1>
+<a href="https://abd-01.github.io/Academic-Time-Table/" target="_blank">LINK</a>
