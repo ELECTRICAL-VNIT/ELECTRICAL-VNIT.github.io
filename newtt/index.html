@@ -43,11 +43,6 @@
 		background-color: #55608f;
 	}
 
-	a {
-		text-decoration: inherit;
-		color: inherit;
-	}
-
 	td {
 		transition: 0.25s;
 	}
@@ -58,27 +53,63 @@
         cursor: pointer;
 	} 
   
-    td table {
-      box-shadow: 0 0;
-    }
-    td td {
-      background-color: transparent;
-    }
-  
-  .a {
-    
+  td table {
+    box-shadow: 0 0;
+  }
+  td td {
+    background-color: transparent;
+  }
+
+  .noHover {
+    pointer-events: none;
   }
 
 </style>
 
 <script>
-var x = document.getElementsByClassName("a");
-for (var i = 0; i < x.length; i++) {
-  x[i].style.backgroundColor = "red";
-}
 
-function myFunction() {
-  location.href='https://abd-01.github.io/Winter-20-TimeTable/'
+// Slot A
+function slotA() {
+  var msg = "There's no Class now, Enjoy."
+  alert(msg);
+}
+// Slot B
+function slotB() {
+  var msg = "There's no Class now, Enjoy."
+  alert(msg);
+}
+// Electrical Machines
+function slotC() {
+  location.href='https://abd-01.github.io/404.html'
+}
+// Electrical Power Systems II
+function slotD() {
+  location.href='https://abd-01.github.io/404.html'
+}
+// Control System I
+function slotE() {
+  location.href='https://abd-01.github.io/404.html'
+}
+// Electrical Power Distribution System
+function slotFa() {
+  location.href='https://abd-01.github.io/404.html'
+}
+// Optimization Techniques
+function slotFb() {
+  location.href='https://abd-01.github.io/404.html'
+}
+// Electrical Machine Design
+function slotG() {
+  location.href='https://abd-01.github.io/404.html'
+}
+// Industrial Automation
+function slotH() {
+  location.href='https://abd-01.github.io/404.html'
+}
+// Empty
+function slot() {
+  var msg = "There's no Class now, Enjoy."
+  alert(msg);
 }
 </script>
   
@@ -89,10 +120,10 @@ function myFunction() {
 	<script type="text/javascript" src="https://www.counters-free.net/count/8z27"></script><b>
 
 	<div class="container">
-      <table>
+    <table>
       <thead>
         <tr>
-          <td></td>
+          <td onclick="slot()"></td>
           <th>09:00 - 09:55</th>
           <th>10:00 - 10:55</th>
           <th>11:00 - 11:55</th>
@@ -107,73 +138,74 @@ function myFunction() {
       <tbody>
         <tr>
           <th>MONDAY</th>
-          <td>---</td>
-          <td onclick="myFunction()">EMD</td>
-          <td>Control System I</td>
-          <td>EM II</td>
-          <td rowspan="6"><br><br><br><br>B<br>R<br>E<br>A<br>K</td>
-          <td>Industrial Automation</td>
-          <td>---</td>
+          <td onclick="slotA()">---</td>
+          <td onclick="slotG()">EMD</td>
+          <td onclick="slotE()">Control System I</td>
+          <td onclick="slotC()">EM II</td>
+          <td rowspan="6" class="noHover"><br><br><br><br>B<br>R<br>E<br>A<br>K</td>
+          <td onclick="slotH()">Industrial Automation</td>
           <td></td>
-          <td></td>
+          <td onclick="slot()"></td>
+          <td onclick="slot()"></td>
         </tr>
         <tr>
           <th>TUESDAY</th>
-          <td>---</td>
-          <td>Industrial Automation</td>
-          <td><table><tr><td>OT</td><td>EPDS</td></tr></table></td>
+          <td onclick="slotB()">---</td>
+          <td onclick="slotH()">Industrial Automation</td>
+          <td><table><tr><td onclick="slotFa()">EPDS</td><td onclick="slotFb()">OT</td></tr></table></td>
           
-          <td>EPS II</td>
-          <td>---</td>
-          <td>Control System I</td>
-          <td></td>
-          <td></td>
+          <td onclick="slotD()">EPS II</td>
+          <td onclick="slotA()">---</td>
+          <td onclick="slotE()">Control System I</td>
+          <td onclick="slot()"></td>
+          <td onclick="slot()"></td>
         </tr>
         <tr>
           <th>WEDNESDAY</th>
-          <td>EM II</td>
-          <td>---</td>
-          <td>EMD</td>
-          <td>Control System I</td>
-          <td>---</td>
-          <td>OT / EPDS</td>
-          <td></td>
-          <td></td>
+          <td onclick="slotC()">EM II</td>
+          <td onclick="slotA()">---</td>
+          <td onclick="slotG()">EMD</td>
+          <td onclick="slotE()">Control System I</td>
+          <td onclick="slotB()">---</td>
+          <td><table><tr><td onclick="slotFa()">EPDS</td><td onclick="slotFb()">OT</td></tr></table></td>
+          <td onclick="slot()"></td>
+          <td onclick="slot()"></td>
         </tr>
         <tr>
           <th>THURSDAY</th>
-          <td>EPS II</td>
-          <td>---</td>
-          <td>Industrial Automation</td>
-          <td>OT / EPDS</td>
-          <td>EM II</td>
-          <td>EMD</td>
-          <td></td>
-          <td></td>
+          <td onclick="slotD()">EPS II</td>
+          <td onclick="slotB()">---</td>
+          <td onclick="slotH()">Industrial Automation</td>
+          <td><table><tr><td onclick="slotFa()">EPDS</td><td onclick="slotFb()">OT</td></tr></table></td>
+          <td onclick="slotC()">EM II</td>
+          <td onclick="slotG()">EMD</td>
+          <td onclick="slot()"></td>
+          <td onclick="slot()"></td>
         </tr>
         <tr>
           <th>FRIDAY</th>
-          <td>Control System I</td>
-          <td>EM II</td>
-          <td>---</td>
-          <td>EMD</td>
-          <td>EPS II</td>
-          <td>---</td>
-          <td></td>
-          <td></td>
+          <td onclick="slotE()">Control System I</td>
+          <td onclick="slotC()">EM II</td>
+          <td onclick="slotA()">---</td>
+          <td onclick="slotG()">EMD</td>
+          <td onclick="slotD()">EPS II</td>
+          <td onclick="slot()"></td>
+          <td onclick="slot()"></td>
+          <td onclick="slot()"></td>
         </tr>
         <tr>
           <th>SATURDAY</th>
-          <td>OT / EPDS</td>
-          <td>EPS II</td>
-          <td>---</td>
-          <td>Industrial Automation</td>
-          <td>---</td>
-          <td>---</td>
-          <td></td>
-          <td></td>
+          <td><table><tr><td onclick="slotFa()">EPDS</td><td onclick="slotFb()">OT</td></tr></table></td>
+          <td onclick="slotD()">EPS II</td>
+          <td onclick="slot()">---</td>
+          <td onclick="slotH()">Industrial Automation</td>
+          <td onclick="slot()">---</td>
+          <td onclick="slot()">---</td>
+          <td onclick="slot()"></td>
+          <td onclick="slot()"></td>
         </tr>
       </tbody>
-      </table>
+    </table>
 		</div>
+    <br><br><br><br><br>
 </body>
