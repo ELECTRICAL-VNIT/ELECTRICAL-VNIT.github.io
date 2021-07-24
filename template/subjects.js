@@ -10,32 +10,32 @@ const SUBJECTS = {
   },
 
   "slotC": {
-    name: "Introduction to Electrical Vehicles",
+    name: "---",
     link: ""
   },
 
   "slotD": {
-    name: "High Voltage Engineering",
+    name: "---",
     link: ""
   },
 
   "slotE": {
-    name: "HDVC",
+    name: "---",
     link: ""
   },
 
   "slotF": {
-    name: "Advanced Power Electronics",
+    name: "---",
     link: ""
   },
 
   "slotG": {
-    name: "Power Quality",
+    name: "---",
     link: ""
   },
 
   "slotH": {
-    name: "DSP Application to PS",
+    name: "---",
     link: ""
   }
 };

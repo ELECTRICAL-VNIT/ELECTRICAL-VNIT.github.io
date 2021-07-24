@@ -10,37 +10,32 @@ const SUBJECTS = {
   },
 
   "slotC": {
-    name: "Electrical Machines",
+    name: "Integral Transforms and Partial Differential Equations",
     link: ""
   },
 
   "slotD": {
-    name: "Electrical Power Systems",
+    name: "Measurement and Instrumentation",
     link: ""
   },
 
   "slotE": {
-    name: "Control System I",
+    name: "Electromagnetics",
     link: ""
   },
 
-  "slotFa": {
-    name: "Electrical Power Distribution",
-    link: ""
-  },
-
-  "slotFb": {
-    name: "Optimization Techniques",
+  "slotF": {
+    name: "Signal & Systems",
     link: ""
   },
 
   "slotG": {
-    name: "Electrical Machine Design",
+    name: "Electronics Devices and Circuits",
     link: ""
   },
 
   "slotH": {
-    name: "Industrial Automation",
+    name: "Network Theory",
     link: ""
   }
 };
