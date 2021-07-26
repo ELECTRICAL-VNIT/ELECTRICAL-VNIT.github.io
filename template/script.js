@@ -13,7 +13,7 @@ function load() {
   for (var i = 0; i < 6; i++) {
     for (var j = 0; j < 2; j++) {
       var anchor = document.getElementById('p'+i.toString()+j.toString());
-      anchor.innerHTML = PRACTICALS[i][j].join('<br>')
+      anchor.innerHTML = PRACTICALS[i][j].join('\n')
     }
   }
 }

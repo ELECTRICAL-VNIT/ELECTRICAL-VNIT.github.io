@@ -4,8 +4,8 @@ This repository contains a template of Time Table as per the Subject Slots of VN
 
 See the template [here](https://abd-01.github.io/Academic-Time-Table/template/index.html).
 
-![timetable](https://user-images.githubusercontent.com/63636498/126876032-b155b40f-a5b1-41b9-b7bf-1241a36cd505.png)
-
+<!-- ![timetable](https://user-images.githubusercontent.com/63636498/126876032-b155b40f-a5b1-41b9-b7bf-1241a36cd505.png) -->
+![timetable](https://user-images.githubusercontent.com/63636498/127013280-d2bd89ce-08f1-4ffe-b326-2ef84f013d5a.png)
 
 * [EEE 5th Sem](https://abd-01.github.io/Academic-Time-Table/EEE_Sem5/index.html)
 * [EEE 3rd Sem](https://abd-01.github.io/Academic-Time-Table/EEE_Sem3/index.html)

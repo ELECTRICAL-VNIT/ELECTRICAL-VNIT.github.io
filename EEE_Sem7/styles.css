@@ -1,5 +1,5 @@
 html {
-	background-image: url('./violet-background.jpg');
+	background-image: url('violet-background.jpg');
 }
 
 body {
@@ -50,4 +50,11 @@ td td {
 
 .noHover {
   pointer-events: none;
+}
+
+#p00, #p01, #p10, #p11, #p20, #p21, #p30, #p31, #p40, #p41, #p50, #p51 {
+	line-height: 90%;
+	padding: 5px 5px;
+	font-size: 90%;
+	white-space: pre-line;
 }
