@@ -6,9 +6,16 @@ function load() {
         anchors[i].onclick = function() {
             alert('Slot: '+slot+'\nSubject: '+subject.name+'\nLink: '+subject.link);
             // location.href=subject.link
-        }
       }
     }
   }
+
+  for (var i = 0; i < 6; i++) {
+    for (var j = 0; j < 2; j++) {
+      var anchor = document.getElementById('p'+i.toString()+j.toString());
+      anchor.innerHTML = PRACTICALS[i][j].join('<br>')
+    }
+  }
+}
 
 window.onload = load; // onload
