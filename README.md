@@ -24,5 +24,23 @@ See the template [here](https://abd-01.github.io/Academic-Time-Table/template/in
 	    link: "Lecture Link"
 	  }
 	```
+3. Add the Practical Batches in `subjects.js` file.
+
+	`B#` is batch no. #. (eg. `CS-I (B5)` is Control Systems-I Batch 5)
+	```javascript
+	  [
+	    ['slotB (B3)', 'slotC (B4)', 'slotD (B5)', 'slotE (B1)', 'slotF (B2)'], // All Practicals of slot: Wed 4:00pm-4:45pm
+	    ['slotG (B2)', 'slotH (B3)', 'slotA (B4)']           // All Practicals of slot:  Wed 5:00pm-5:45pm
+	  ],
+	.
+	.
+	.
+	  [
+	    ['slotB (B5)', 'slotC (B1)'], // All Practicals of slot: Fri 4:00pm-4:45pm
+	    ['slotG (B5)']           // All Practicals of slot: Fri 5:00pm-5:45pm
+	  ], 
+  	```
+	Add all the practical subjects of same slot in same array.(as shown in code above). Leave the array blank if no subject is alloted to that slot. 
+
 3. Done.
 
