@@ -1,41 +1,41 @@
 const SUBJECTS = {
   "slotA": {
-    name: "---",
+    name: "slot A",
     link: ""
   },
 
   "slotB": {
-    name: "---",
+    name: "slot B",
     link: ""
   },
 
   "slotC": {
-    name: "---",
+    name: "slot C",
     link: ""
   },
 
   "slotD": {
-    name: "---",
+    name: "slot D",
     link: ""
   },
 
   "slotE": {
-    name: "---",
+    name: "slot E",
     link: ""
   },
 
   "slotF": {
-    name: "---",
+    name: "slot F",
     link: ""
   },
 
   "slotG": {
-    name: "---",
+    name: "slot G",
     link: ""
   },
 
   "slotH": {
-    name: "---",
+    name: "slot H",
     link: ""
   }
 };
