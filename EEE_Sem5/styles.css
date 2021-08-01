@@ -1,60 +1,22 @@
-html {
-	background-image: url('violet-background.jpg');
-}
-
 body {
-	font-family: sans-serif;
-	font-weight: 100;
-}
-
-.container {
-	position: relative;
-	width: 150%;
-}
-
-table {
-	width: 100%;
-	text-align: center;
-	border-collapse: collapse;
-	box-shadow: 0 0 20px rgba(0,0,0,0.1);
-}
-
-th, td {
-	line-height: 24px;
-	overflow: hidden;
-	padding: 10px 5px;
-	background-color: rgba(255,255,255,0.2);
-	color: #fff;
-}
-
-th {
-	background-color: #5f218a;
+  background-image: url('bg.webp');
 }
 
 td {
-	transition: 0.25s;
+  background-color: rgba(153, 50, 204, 0.7);
+  transition: 0.25s;
 }
 
-td:hover, td:active {
-	transform:scale(1.3,1.3);
-	background-color: #502598;
-      cursor: pointer;
+th {
+  background-color: rgba(75, 0, 130, 0.7);
+}
+
+td, th, tr {
+  border: 1px solid rgb(75, 0, 130) !important;
 } 
 
-td table {
-  box-shadow: 0 0;
-}
-td td {
-  background-color: transparent;
-}
-
-.noHover {
-  pointer-events: none;
-}
-
-#p00, #p01, #p10, #p11, #p20, #p21, #p30, #p31, #p40, #p41, #p50, #p51 {
-	line-height: 90%;
-	padding: 5px 5px;
-	font-size: 90%;
-	white-space: pre-line;
-}
+td:hover, td:active {
+  transform:scale(1.3,1.3);
+  background-color: rgb(75, 0, 130);
+  cursor: pointer;
+} 
