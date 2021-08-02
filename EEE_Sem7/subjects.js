@@ -2,12 +2,12 @@
 
 const SUBJECTS = {
   "slotA": {
-    name: "---",
+    name: "P&M/PoE/Sanskrit",
     link: ""
   },
 
   "slotB": {
-    name: "---",
+    name: "IS/MFM/German/IOR/FM/FDMDE/S&OT/SA&QT/PD ",
     link: ""
   },
 
@@ -66,27 +66,27 @@ const SUBJECTS = {
 
 const PRACTICALS = [
   [
-    ['', '', '', '', ''], // Mon 4:00pm-4:45pm
+    ['', '', 'slotD (B3)', '', ''], // Mon 4:00pm-4:45pm
     ['', '', ''] // Mon 5:00pm-5:45pm
   ], 
   [
-    ['', '', '', '', ''], // Tue 4:00pm-4:45pm
+    ['', '', 'slotD (B4)', '', ''], // Tue 4:00pm-4:45pm
     ['', '', '']  // Tue 5:00pm-5:45pm
   ], 
   [
-    ['', '', '', '', ''], // Wed 4:00pm-4:45pm
+    ['', '', 'slotD (B5)', '', ''], // Wed 4:00pm-4:45pm
     ['', '', '']  // Wed 5:00pm-5:45pm
   ], 
   [
-    ['', '', '', '', ''], // Thu 4:00pm-4:45pmr
+    ['', '', 'slotD (B6)', '', ''], // Thu 4:00pm-4:45pmr
     ['', '', '']  // Thur 5:00pm-5:45pm
   ], 
   [
-    ['', '', '', '', ''], // Fri 4:00pm-4:45pm
+    ['', '', 'slotD (B1)', '', ''], // Fri 4:00pm-4:45pm
     ['', '', '']  // Fri 5:00pm-5:45pm
   ], 
   [
-    ['', '', '', '', ''], // Sat 4:00pm-4:45pm
+    ['', '', 'slotD (B2)', '', ''], // Sat 4:00pm-4:45pm
     ['', '', '']  // Sat 5:00pm-5:45pm
   ], 
 ]
