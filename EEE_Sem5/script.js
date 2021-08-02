@@ -12,8 +12,17 @@ function load() {
 
   for (var i = 0; i < 6; i++) {
     for (var j = 0; j < 2; j++) {
-      var anchor = document.getElementById('p'+i.toString()+j.toString());
-      anchor.innerHTML = PRACTICALS[i][j].join('<br>')
+      id = 'p'+i.toString()+j.toString();
+      if (j == 0) {
+        var anchor = document.getElementById(id+'a');
+        anchor.innerHTML = PRACTICALS[i][j][0];
+        anchor = document.getElementById(id+'b');
+        anchor.innerHTML = PRACTICALS[i][j][1];
+      }
+      else {
+        var anchor = document.getElementById(id);
+        anchor.innerHTML = PRACTICALS[i][j];
+      }
     }
   }
 }
