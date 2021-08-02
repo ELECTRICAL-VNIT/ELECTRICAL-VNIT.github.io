@@ -7,13 +7,13 @@ const SUBJECTS = {
   },
 
   "slotB": {
-    name: "IS/MFM/Ger/Math OC",
+    name: "All other OC",
     link: ""
   },
 
   "slotC": {
     name: "IEV",
-    link: ""
+    link: "https://meet.google.com/qpn-chbx-bvu"
   },
 
   "slotD": {
