@@ -7,7 +7,7 @@ const SUBJECTS = {
   },
 
   "slotB": {
-    name: "IS/MFM/German/Math OC",
+    name: "IS/MFM/Ger/Math OC",
     link: ""
   },
 
