@@ -2,12 +2,12 @@
 
 const SUBJECTS = {
   "slotA": {
-    name: "---",
+    name: "P&M/PoE/Sans",
     link: ""
   },
 
   "slotB": {
-    name: "---",
+    name: "IS/MFM/German/Math OC",
     link: ""
   },
 
@@ -42,7 +42,7 @@ const SUBJECTS = {
   },
 
   "slotG": {
-    name: "Power Quality",
+    name: "PQ",
     link: "https://meet.google.com/rju-vouo-ncs"
   },
 
@@ -66,27 +66,27 @@ const SUBJECTS = {
 
 const PRACTICALS = [
   [
-    ['', '', '', '', ''], // Mon 4:00pm-4:45pm
+    ['', '', 'HVE B3', '', ''], // Mon 4:00pm-4:45pm
     ['', '', ''] // Mon 5:00pm-5:45pm
   ], 
   [
-    ['', '', '', '', ''], // Tue 4:00pm-4:45pm
+    ['', '', 'HVE B4', '', ''], // Tue 4:00pm-4:45pm
     ['', '', '']  // Tue 5:00pm-5:45pm
   ], 
   [
-    ['', '', '', '', ''], // Wed 4:00pm-4:45pm
+    ['', '', 'HVE B5', '', ''], // Wed 4:00pm-4:45pm
     ['', '', '']  // Wed 5:00pm-5:45pm
   ], 
   [
-    ['', '', '', '', ''], // Thu 4:00pm-4:45pmr
+    ['', '', 'HVE B6', '', ''], // Thu 4:00pm-4:45pmr
     ['', '', '']  // Thur 5:00pm-5:45pm
   ], 
   [
-    ['', '', '', '', ''], // Fri 4:00pm-4:45pm
+    ['', '', 'HVE B1', '', ''], // Fri 4:00pm-4:45pm
     ['', '', '']  // Fri 5:00pm-5:45pm
   ], 
   [
-    ['', '', '', '', ''], // Sat 4:00pm-4:45pm
+    ['', '', 'HVE B2', '', ''], // Sat 4:00pm-4:45pm
     ['', '', '']  // Sat 5:00pm-5:45pm
   ], 
 ]
