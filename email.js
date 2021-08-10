@@ -9,7 +9,7 @@ btn.addEventListener("click", function(){
          To: "studactieeevnit@gmail.com",
          From : inputs.elements["email"].value,
          Subject : "Contact Form Response from website",
-         Body: inputs.elements["name"].value + "<br>" + inputs.elements["phone"].value  + "<br>" + inputs.elements["message"].value
+         Body: inputs.elements["name"].value + "<br>" + inputs.elements["phone"].value  + "<br>" + document.querySelector('textarea').value
 
         
     }).then(function(response){
