@@ -1,4 +1,4 @@
-// const btn = document.querySelector('button');
+
 const inputs = document.querySelector('form');
 const btn = document.getElementById('message')
 btn.addEventListener("click", function(){
