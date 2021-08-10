@@ -16,7 +16,7 @@
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 
-<body>
+<body oncontextmenu="return false">
 
 
     <!-- header section starts  -->
@@ -215,12 +215,12 @@
             </div>
 
             <div class="form-container">
-                <form action="mailto:studactieeevnit@gmail.com" method="post" enctype="text/plain">
-                    <input type="text" placeholder="full name">
-                    <input type="email" placeholder="enter your email">
-                    <input type="number" placeholder="phone">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
-                    <input type="submit" value="message" id="message" onclick="alert('Thank You for contacting us')">
+                <form action="" method="POST" onsubmit="return false">
+                    <input type="text" placeholder="full name" name="name">
+                    <input type="email" placeholder="enter your email" name="email">
+                    <input type="number" placeholder="phone" name="phone">
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="message"></textarea>
+                    <input type="submit" value="message" id="message" >
                 </form>
             </div>
 
@@ -247,6 +247,8 @@
 
     <!-- custom js file link  -->
     <script src="main.js"></script>
+    <script src="email.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
 
 </body>
