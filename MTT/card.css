@@ -1,0 +1,65 @@
+.bg-color {
+    background-color:#ffffff;
+    
+    
+}
+
+.card-deck {
+    margin:auto 0;
+    backdrop-filter: blur( 20.0px );
+    
+}
+.modal-content {
+    background-color: #349fe7;
+    border: 0px;
+    
+}
+.card-title {
+    text-align: center;
+    color: #56078b;
+   font-weight: 500;
+   font-size: 28px;
+}
+h5:hover{
+    color: #00ACE1;
+}
+td:hover{
+    color: #00ACE1;
+    transition: .2s;
+    font-size: 17px;
+}
+th:hover{
+    color: #00ACE1;
+}
+.card {
+    border-radius: 15px;
+}
+
+.closebt{
+	position: relative;
+	text-align:center;
+
+    
+        display: flex;
+        justify-content: center;
+        margin: 2% auto;
+}
+
+.closebt {
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+	cursor:pointer;
+}
+
+.closebt:hover {
+	transform:rotate(180deg);
+}
+@media (max-width:768px) {
+    .card-deck {
+        margin:7px;
+    }
+
+}
