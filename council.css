@@ -95,6 +95,7 @@ body{
 
 }
 .content p:hover{
+    transition: .2s;
     font-size: 17px;
     font-weight: 305;
 }
