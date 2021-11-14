@@ -9,11 +9,16 @@
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <!-- custom css file link  -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="timetable-styles.css">
 
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body oncontextmenu="return false">
@@ -24,7 +29,7 @@
     <header>
 
         <a href="#" class="logo"><i class="fas fa-graduation-cap">Electrical Department</i></a>
-               
+
 
         <nav class="navbar">
             <ul>
@@ -36,8 +41,8 @@
                 <li><a href="#Notes">B-Tech Notes</a></li>
                 <li><a href="https://studentportal.vnit.ac.in/home/" target="blank">Student
                         Portal</a></li>
-                
-                
+
+
             </ul>
         </nav>
 
@@ -55,26 +60,32 @@
         <div class="content" id="slide-in-fwd-top">
             <h1>EEE Student Activity Hub</h1>
             <p></p>
-            <a href="MTT/modal.html" ><button>Midsem TT</button></a>
+            <a href="MTT/modal.html"><button>Midsem TT</button></a>
         </div>
 
         <div class="box-container">
 
             <div class="box" id="roll-in-bottom">
                 <i class="fas fa-graduation-cap"></i>
-                <a href="council-page/council.html" target="blank"><h3 id="fc">Department Council</h3></a>
+                <a href="council-page/council.html" target="blank">
+                    <h3 id="fc">Department Council</h3>
+                </a>
                 <p>Click here to know more about Department Council</p>
             </div>
 
             <div class="box" id="roll-in-bottom">
                 <i class="fas fa-calendar-week"></i>
-                <a href="iframe.html" target="blank"><h3 id="fc">Academic Calendar</h3></a>
+                <a href="iframe.html" target="blank">
+                    <h3 id="fc">Academic Calendar</h3>
+                </a>
                 <p>Click here for Academic Calendar</p>
             </div>
 
             <div class="box" id="roll-in-bottom">
                 <i class="fab fa-hive"></i>
-                <a href="Student Events/index.html" target="blank"><h3 id="fc">Student Activities</h3></a>
+                <a href="Student Events/index.html" target="blank">
+                    <h3 id="fc">Student Activities</h3>
+                </a>
                 <p>Click here to see Student Activities</p>
             </div>
 
@@ -91,41 +102,392 @@
         <h3 class="title">All semester's Digital Time Tables</h3>
 
 
-        <div class="box-container" >
+        <div class="box-container">
 
 
-
+            <!-- Third Semester -->
             <div class="box">
                 <i class="far fa-calendar-alt"></i>
-                <h3><a href="https://electrical-vnit.github.io/Academic-Time-Table/EEE_Sem3/index.html" target="blank">Third Semester</a></h3>
+                <h1><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Sem3TT" id="sem3btn">
+                        Third Semester
+                    </button></h1>
+
+
                 <p>Click here to see Time Table of 3rd Semester</p>
             </div>
-            <!--<div class="box">
-                <i class="far fa-calendar-alt"></i>
-                <h3><a href="timeTable.html" target="blank">Fourth Semester</a></h3>
-                <p>Click here to see Time Table of 4th Semester</p>
-            </div>-->
+            <div class="modal fade " id="Sem3TT" tabindex="-1" role="dialog" aria-labelledby="Sem3Title"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="Sem3Title">Third Sem Time Table</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+
+                            <h1 class="text-center text-dark">EEE 2<sup>nd</sup> YEAR TIME TABLE (W-21)</h1>
+
+                            <table class="table table-bordered table-responsive-md">
+                                <thead>
+                                    <tr>
+                                        <td></td>
+                                        <th scope="col">09:00 - 09:55</th>
+                                        <th scope="col">10:00 - 10:55</th>
+                                        <th scope="col">11:00 - 11:55</th>
+                                        <th scope="col">12:00 - 12:55</th>
+                                        <th scope="col">13:00 - 13:55</th>
+                                        <th scope="col">14:00 - 14:55</th>
+                                        <th scope="col">15:00 - 15:55</th>
+                                        <th scope="col">16:00 - 16:55</th>
+                                        <th scope="col">17:00 - 17:55</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">MONDAY</th>
+                                        <td class="slottnpmonS3">TnP</td>
+                                        <td class="slotGS3">slot G</td>
+                                        <td class="slotEmonS3">slot E</td>
+                                        <td class="slotCS3">slot C</td>
+                                        <td rowspan="6" class="noHover"><br><br>B<br>R<br>E<br>A<br>K</td>
+                                        <td class="slotS3"></td>
+                                        <td class="slotS3"></td>
+                                        <td class="slotS3"></td>
+                                        <td class="slotedcprac123S3">Edc Prac</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">TUESDAY</th>
+                                        <td class="slotS3"></td>
+                                        <td class="slotHS3">slot H</td>
+                                        <td class="slotFS3">slot F</td>
+                                        <td class="slotDS3">slot D</td>
+                                        <td class="slotAS3">slot A</td>
+                                        <td class="slotEtueS3">slot E</td>
+                                        <td class="mniprac12S3">M&I Prac</td>
+                                        <td class="slotS3"></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">WEDNESDAY</th>
+                                        <td class="slotCS3">slot C</td>
+                                        <td class="slotAS3">slot A</td>
+                                        <td class="slotGS3">slot G</td>
+                                        <td class="slotEwedS3">slot E</td>
+                                        <td class="slotBS3">slot B</td>
+                                        <td class="slotFS3">slot F</td>
+                                        <td class="slotedcprac456S3">Edc Prac</td>
+                                        <td class="slotS3"></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">THURSDAY</th>
+                                        <td class="slotDS3">slot D</td>
+                                        <td class="slotBS3">slot B</td>
+                                        <td class="slotHS3">slot H</td>
+                                        <td class="slotFS3">slot F</td>
+                                        <td class="slotCS3">slot C</td>
+                                        <td class="slotGS3">slot G</td>
+                                        <td class="slotS3"></td>
+                                        <td class="slotS3"></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">FRIDAY</th>
+                                        <td class="slotEfriS3">slot E</td>
+                                        <td class="slotCS3">slot C</td>
+                                        <td class="slotAS3">slot A</td>
+                                        <td class="slotGS3">slot G</td>
+                                        <td class="slottnpfriS3">TnP</td>
+                                        <td class="slotS3"></td>
+                                        <td class="slotntprac12S3">NT Prac</td>
+                                        <td class="slotS3"></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">SATURDAY</th>
+                                        <td class="slotFS3">slot F</td>
+                                        <td class="slotDS3">slot D</td>
+                                        <td class="slotBS3">slot B</td>
+                                        <td class="slotHS3">slot H</td>
+                                        <td class="slotS3"></td>
+                                        <td class="slotS3"></td>
+                                        <td class="slotS3"></td>
+                                        <td class="slotS3"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fifth Semester -->
             <div class="box">
                 <i class="far fa-calendar-alt"></i>
-                <h3><a href="Academic-Time-Table/EEE_Sem5/index.html" target="blank">Fifth Semester</a></h3>
+                <h1><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Sem5TT">
+                        Fifth Semester
+                    </button></h1>
                 <p>Click here to see Time Table of 5th Semester</p>
             </div>
-           <!--<div class="box">
-                <i class="far fa-calendar-alt"></i>
-                <h3><a href="#"target="blank">Sixth Semester</a></h3>
-                <p>Click here to see Time Table of 6th Semester</p>
-            </div>-->
+            <div class="modal fade " id="Sem5TT" tabindex="-1" role="dialog" aria-labelledby="Sem5Title"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="Sem5Title">Fifth Sem Time Table</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+
+                            <h1 class="text-center text-dark">EEE 2<sup>nd</sup> YEAR TIME TABLE (W-21)</h1>
+
+                            <table class="table tabele-bordered table-responsive-md">
+                                <thead>
+                                    <tr>
+                                        <td colspan="2"></td>
+                                        <th colspan="2" scope="col">09:00 - 09:55</th>
+                                        <th colspan="2" scope="col">10:00 - 10:55</th>
+                                        <th colspan="2" scope="col">11:00 - 11:55</th>
+                                        <th colspan="2" scope="col">12:00 - 12:55</th>
+                                        <th colspan="2" scope="col">13:00 - 13:55</th>
+                                        <th colspan="2" scope="col">14:00 - 14:55</th>
+                                        <th colspan="2" scope="col">15:00 - 15:55</th>
+                                        <th colspan="2" scope="col">16:00 - 16:55</th>
+                                        <th colspan="2" scope="col">17:00 - 17:55</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th colspan="2" scope="row">MONDAY</th>
+                                        <td colspan="2" class="5slotA">slot A</td>
+                                        <td colspan="2" class="5slotG">slot G</td>
+                                        <td colspan="2" class="5slotE">slot E</td>
+                                        <td colspan="2" class="5slotC">slot C</td>
+                                        <td colspan="2" rowspan="6" class="noHover"><br><br>B<br>R<br>E<br>A<br>K</td>
+                                        <td colspan="2" class="5slotH">slot H</td>
+                                        <td colspan="2" class="5slot"></td>
+                                        <td colspan="1" id="p00a"></td>
+                                        <td colspan="1" id="p00b"></td>
+                                        <td colspan="2" id="p01"></td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="2" scope="row">TUESDAY</th>
+                                        <td colspan="2" class="5slotB">slot B</td>
+                                        <td colspan="2" class="5slotH">slot H</td>
+                                        <td colspan="1" class="5slotFa_tue">slot Fa</td>
+                                        <td colspan="1" class="5slotFb_tue">slot Fb</td>
+                                        <td colspan="1" class="slotDa5" onclick="showModal()">slot D</td>
+                                        <td colspan="1" class="5slotDb_tue">slot D</td>
+                                        <td colspan="2" class="5slotA">slot A</td>
+                                        <td colspan="2" class="5slotE">slot E</td>
+                                        <td colspan="1" id="p10a"></td>
+                                        <td colspan="1" id="p10b"></td>
+                                        <td colspan="2" id="p11"></td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="2" scope="row">WEDNESDAY</th>
+                                        <td colspan="2" class="5slotC">slot C</td>
+                                        <td colspan="2" class="5slotDb_wed">slot A</td>
+                                        <td colspan="2" class="5slotG">slot G</td>
+                                        <td colspan="2" class="5slotE">slot E</td>
+                                        <td colspan="1" class="5slotB">slot B</td>
+                                        <td colspan="1" class="5slotFb_wed">slot Fb</td>
+                                        <td colspan="1" class="5slotFb_wed">slot Fb</td>
+                                        <td colspan="1" class="5slotFa_wed">slot Fa</td>
+                                        <td colspan="1" id="p20a"></td>
+                                        <td colspan="1" id="p20b"></td>
+                                        <td colspan="2" id="p21"></td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="2" scope="row">THURSDAY</th>
+                                        <td colspan="2" class="slotDa5" onclick="showModal()">slot D</td>
+                                        <td colspan="2" class="5slotB">slot B</td>
+                                        <td colspan="2" class="5slotH">slot H</td>
+                                        <td colspan="1" class="5slotFa_thu">slot Fa</td>
+                                        <td colspan="1" class="5slotFb_thu">slot Fb</td>
+                                        <td colspan="2" class="5slotC">slot C</td>
+                                        <td colspan="2" class="5slot">slot G</td>
+                                        <td colspan="1" id="p30a"></td>
+                                        <td colspan="1" id="p30b"></td>
+                                        <td colspan="2" id="p31"></td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="2" scope="row">FRIDAY</th>
+                                        <td colspan="2" class="5slot"></td>
+                                        <td colspan="2" class="5slotC">slot C</td>
+                                        <td colspan="2" class="5slotA">slot A</td>
+                                        <td colspan="2" class="5slotG">slot G</td>
+                                        <td colspan="1" class="slotDa5" onclick="showModal()">slot D</td>
+                                        <td colspan="1" class="5slotDb_fri">slot D</td>
+                                        <td colspan="2" class="5slotE"></td>
+                                        <td colspan="1" id="p40a"></td>
+                                        <td colspan="1" id="p40b"></td>
+                                        <td colspan="2" id="p41"></td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="2" scope="row">SATURDAY</th>
+                                        <td colspan="1" class="5slot">slot Fa</td>
+                                        <td colspan="1" class="5slot">slot Fb</td>
+                                        <td colspan="1" class="slotDa5" onclick="showModal()">slot D</td>
+                                        <td colspan="1" class="5slotDb_sat">slot D</td>
+                                        <td colspan="2" class="5slotB">slot B</td>
+                                        <td colspan="2" class="5slotH">slot H</td>
+                                        <td colspan="2" class="5slot"></td>
+                                        <td colspan="2" class="5slot"></td>
+                                        <td colspan="1" id="p50a"></td>
+                                        <td colspan="1" id="p50b"></td>
+                                        <td colspan="2" id="p51"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <!-- <div id="test" class="modal fade" tabindex="-1" style="display: none; background-color: rgba(0,0,0,0.5);">
+                            <div class="modal-dialog">
+                              <div class="modal-content text-left" style="background-color: rgb(75, 0, 130);">
+                                <div class="modal-header">
+                                  <h4 class="modal-title 5slotDa">SlotD</h4>
+                                  <button type="button" class="close" onclick="closeModal()"><span>×</span></button>
+                                </div>
+                                <div class="modal-body">
+                                  Zoom Link: <a href="javascript:void(0);" onClick="window.open(SUBJECTS5.slotDa5.link);"><script type="text/javascript">document.write(SUBJECTS5.slotDa5.link);</script></a>
+                                  <br>
+                                  Password: <code>psd1</code>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <script type="text/javascript">
+                            function showModal() {
+                              var x = document.getElementById("test");
+                              x.classList.add('show')
+                              x.style.display = "block";
+                          }
+                            function closeModal() {
+                              var x = document.getElementById("test");
+                              x.classList.remove('show')
+                              x.style.display = "none";
+                            }
+                          </script>  -->
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Seventh Semester -->
             <div class="box">
                 <i class="far fa-calendar-alt"></i>
-                <h3><a href="https://electrical-vnit.github.io/Academic-Time-Table/EEE_Sem7/index.html" target="blank">Seventh Semester</a></h3>
+                <h1><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Sem7TT">
+                        Seventh Semester
+                    </button></h1>
                 <p>Click here to see Time Table of 7th Semester</p>
             </div>
-           <!--<div class="box">
-                <i class="far fa-calendar-alt"></i>
-                <h3><a href="#" target="blank">Eighth Semester</a></h3>
-                <p>Click here to see Time Table of 8th Semester</p>
-            </div>-->
+            <div class="modal fade " id="Sem7TT" tabindex="-1" role="dialog" aria-labelledby="Sem7Title"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="Sem7Title">Seventh Sem Time Table</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
 
+                            <h1 class="text-center text-dark">EEE 2<sup>nd</sup> YEAR TIME TABLE (W-21)</h1>
+                            <table class="table table-responsive-md">
+                                <thead>
+                                    <tr>
+                                        <td></td>
+                                        <th scope="col">09:00 - 09:55</th>
+                                        <th scope="col">10:00 - 10:55</th>
+                                        <th scope="col">11:00 - 11:55</th>
+                                        <th scope="col">12:00 - 12:55</th>
+                                        <th scope="col">13:00 - 13:55</th>
+                                        <th scope="col">14:00 - 14:55</th>
+                                        <th scope="col">15:00 - 15:55</th>
+                                        <th scope="col">16:00 - 16:55</th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">MONDAY</th>
+                                        <td class="7slotA">slot A</td>
+                                        <td class="7slotG">slot G</td>
+                                        <td class="7slotE">slot E</td>
+                                        <td class="7slotC">slot C</td>
+                                        <td rowspan="6" class="noHover"><br>B<br>R<br>E<br>A<br>K</td>
+                                        <td class="7slotH">slot H</td>
+                                        <td class="7slot"></td>
+                                        <td class="7slotprac3"></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">TUESDAY</th>
+                                        <td class="7slotB">slot B</td>
+                                        <td class="7slotH">slot H</td>
+                                        <td class="7slotF_tue">slot F</td>
+                                        <td class="7slotD">slot D</td>
+                                        <td class="7slotA">slot A</td>
+                                        <td class="7slot">slot E</td>
+                                        <td class="7slotprac4"></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">WEDNESDAY</th>
+                                        <td class="7slotC">slot C</td>
+                                        <td class="7slotA">slot A</td>
+                                        <td class="7slotG">slot G</td>
+                                        <td class="7slotE">slot E</td>
+                                        <td class="7slotB">slot B</td>
+                                        <td class="7slotF_wed">slot F</td>
+                                        <td class="7slotprac5"></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">THURSDAY</th>
+                                        <td class="7slotD">slot D</td>
+                                        <td class="7slotB">slot B</td>
+                                        <td class="7slot">slot H</td>
+                                        <td class="7slotF_thur">slot F</td>
+                                        <td class="7slot">slot C</td>
+                                        <td class="7slot">slot G</td>
+                                        <td class="7slotprac6"></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">FRIDAY</th>
+                                        <td class="7slotE">slot E</td>
+                                        <td class="7slotC">slot C</td>
+                                        <td class="7slotA">slot A</td>
+                                        <td class="7slotG">slot G</td>
+                                        <td class="7slotD">slot D</td>
+                                        <td class="7slot"></td>
+                                        <td class="7slotprac1"></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">SATURDAY</th>
+                                        <td class="7slot">slot F</td>
+                                        <td class="7slotD">slot D</td>
+                                        <td class="7slotB">slot B</td>
+                                        <td class="7slotH">slot H</td>
+                                        <td class="7slot"></td>
+                                        <td class="7slot"></td>
+                                        <td class="7slotprac2"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </section>
@@ -142,32 +504,38 @@
             <div class="box">
 
                 <i class="fas fa-book"></i>
-                <h3><a href="https://drive.google.com/drive/folders/1XfNNaMh2NDSQNUe7DOLyrQ4mHxMebcvO?usp=sharing" target="blank">Third Semester</a></h3>
+                <h3><a href="https://drive.google.com/drive/folders/1XfNNaMh2NDSQNUe7DOLyrQ4mHxMebcvO?usp=sharing"
+                        target="blank">Third Semester</a></h3>
                 <p>Click here to see Lecture Notes of 3rd Semester</p>
             </div>
             <div class="box">
                 <i class="fas fa-book"></i>
-                <h3><a href="https://drive.google.com/drive/folders/1jxyO2IdFNHtM08_JUZsLT2v79tJE6m1O?usp=sharing" target="blank">Fourth Semester</a></h3>
+                <h3><a href="https://drive.google.com/drive/folders/1jxyO2IdFNHtM08_JUZsLT2v79tJE6m1O?usp=sharing"
+                        target="blank">Fourth Semester</a></h3>
                 <p>Click here to see Lecture Notes of 4th Semester</p>
             </div>
             <div class="box">
                 <i class="fas fa-book"></i>
-                <h3><a href="https://drive.google.com/drive/folders/1A8ffuX_GTT4yTOZ12aafZlvz-5a7XBsS?usp=sharing" target="blank">Fifth Semester</a></h3>
+                <h3><a href="https://drive.google.com/drive/folders/1A8ffuX_GTT4yTOZ12aafZlvz-5a7XBsS?usp=sharing"
+                        target="blank">Fifth Semester</a></h3>
                 <p>Click here to see Lecture Notes of 5th Semester</p>
             </div>
             <div class="box">
                 <i class="fas fa-book"></i>
-                <h3><a href="https://drive.google.com/drive/folders/1oK9iaAmqnql1ypD7lsiGs_mwR9PY6AlR?usp=sharing" target="blank">Sixth Semester</a></h3>
+                <h3><a href="https://drive.google.com/drive/folders/1oK9iaAmqnql1ypD7lsiGs_mwR9PY6AlR?usp=sharing"
+                        target="blank">Sixth Semester</a></h3>
                 <p>Click here to see Lecture Notes of 6th Semester</p>
             </div>
             <div class="box">
                 <i class="fas fa-book"></i>
-                <h3><a href="https://drive.google.com/drive/folders/1qUQ1KM144uRAzkaGuwPecSufuWaLP26T?usp=sharing" target="blank">Seventh Semester</a></h3>
+                <h3><a href="https://drive.google.com/drive/folders/1qUQ1KM144uRAzkaGuwPecSufuWaLP26T?usp=sharing"
+                        target="blank">Seventh Semester</a></h3>
                 <p>Click here to see Lecture Notes of 7th Semester</p>
             </div>
             <div class="box">
                 <i class="fas fa-book"></i>
-                <h3><a href="https://drive.google.com/drive/folders/1LLI4UuQSqOvFV5n-wOoi6Y2FLUGUZ034?usp=sharing" target="blank">Eighth Semester</a></h3>
+                <h3><a href="https://drive.google.com/drive/folders/1LLI4UuQSqOvFV5n-wOoi6Y2FLUGUZ034?usp=sharing"
+                        target="blank">Eighth Semester</a></h3>
                 <p>Click here to see Lecture Notes of 8th Semester</p>
             </div>
 
@@ -219,10 +587,11 @@
             <div class="form-container">
                 <form action="" method="POST" onsubmit="return false">
                     <input type="text" placeholder="full name" name="name">
-                    <input type="email" autocorrect="off" autocapitalize="none" placeholder="enter your email" name="email">
+                    <input type="email" autocorrect="off" autocapitalize="none" placeholder="enter your email"
+                        name="email">
                     <input type="number" placeholder="phone" name="phone">
                     <textarea name="message" id="" cols="30" rows="10" placeholder="message"></textarea>
-                    <input type="submit" value="message" id="message" >
+                    <input type="submit" value="message" id="message">
                 </form>
             </div>
 
@@ -244,15 +613,40 @@
 
     </section>
 
+    
     <!-- jquery cdn link  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- bootstrap js link -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
     <!-- custom js file link  -->
     <script src="main.js"></script>
     <script src="email.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
 
+    <!-- timetable js files -->
+    
+    
+   
+    <script src="timetable-subjects-sem3.js"></script>
+    <script src="timetable-subjects-sem5.js"></script>
+    <script src="timetable-subjects-sem7.js"></script>
 
+    <!-- Order matters here! Need to figure out to load one at a time! -->
+    <script src="timetable-script-sem7.js"></script>
+    <script src="timetable-script-sem5.js"></script>
+    <script src="timetable-script-sem3.js"></script>
+    
+    
 </body>
 
 </html>
