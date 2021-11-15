@@ -40,3 +40,9 @@ body {
 .modal-title {
   font-size: medium;
 }  
+
+/* timetable button css #007bff*/
+.btn.btn-primary {
+  font-size: medium;
+  
+} 
