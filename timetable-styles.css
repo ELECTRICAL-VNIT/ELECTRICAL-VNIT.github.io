@@ -23,6 +23,7 @@ body {
 
   td, th, tr {
     border: 1px solid rgb(0, 0, 0) !important;
+    font-size: medium;
   } 
   
   td:hover, td:active {
@@ -35,3 +36,7 @@ body {
   .noHover {
     pointer-events: none;
   }
+
+.modal-title {
+  font-size: medium;
+}  
