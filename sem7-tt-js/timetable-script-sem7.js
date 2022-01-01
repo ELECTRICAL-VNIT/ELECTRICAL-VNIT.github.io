@@ -20,4 +20,6 @@ function load() {
     // }
   }
   
-  window.onload = load; // onload
+  // window.onload = load; // onload
+  const r = document.getElementById('Sem7btn');
+  r.onclick = load;

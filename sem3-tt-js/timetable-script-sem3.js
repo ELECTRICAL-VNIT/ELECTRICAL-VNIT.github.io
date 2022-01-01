@@ -20,4 +20,6 @@ function load() {
   }
   
 
-window.onload = load; // onload
+// window.onload = load; // onload
+const q = document.getElementById('Sem3btn');
+q.onclick = load;

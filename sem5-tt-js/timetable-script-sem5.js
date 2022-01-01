@@ -29,4 +29,6 @@ function load() {
     }
   }
   
-  window.onload = load; // onload
+  // window.onload = load; // onload
+  const p = document.getElementById('Sem5btn');
+  p.onclick = load;
