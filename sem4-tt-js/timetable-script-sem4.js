@@ -1,5 +1,5 @@
 function load() {
-    for (const [slot, subject] of Object.entries(SUBJECTS3)) {
+    for (const [slot, subject] of Object.entries(SUBJECTS4)) {
       var anchors = document.getElementsByClassName(slot);
       for(var i = 0; i < anchors.length; i++) {
           anchors[i].innerHTML = subject.name;
@@ -21,5 +21,5 @@ function load() {
   
 
 // window.onload = load; // onload
-const q = document.getElementById('Sem3btn');
+const q = document.getElementById('Sem4btn');
 q.onclick = load;

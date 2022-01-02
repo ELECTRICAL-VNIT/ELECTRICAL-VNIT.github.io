@@ -6,24 +6,31 @@
 .modal {
     text-align: center;
 }
-body {
+/* body {
     background-image: url('bg.png');
-  }
+  } */
   
-  td {
+  td,th {
     /* background-color: rgba(153, 50, 204, 0.7); */
-    background-color: rgb(100, 149, 237);
+    /* background-color: rgb(100, 149, 237); */
+    background-color: #b1d0e0;
+    
+    /* background-image: url('bg.png'); */
+
     transition: 0.25s;
   }
  
-  th {
-    /* background-color: rgba(75, 0, 130, 0.7); */
+  /* th {
+    
     background-color: rgb(30, 104, 241);
-  }
+  } */
 
   td, th, tr {
     border: 1px solid rgb(0, 0, 0) !important;
     font-size: medium;
+    /* color: black; */
+    /* color: white; */
+    color: #1a374d;
   } 
   
   td:hover, td:active {
@@ -43,6 +50,10 @@ body {
 
 /* timetable button css #007bff*/
 .btn.btn-primary {
-  font-size: medium;
+  font-size: 2.2rem;
+  font-weight: 500;
+  background-color: transparent;
+  border: white;
+  color:#007bff;
   
 } 

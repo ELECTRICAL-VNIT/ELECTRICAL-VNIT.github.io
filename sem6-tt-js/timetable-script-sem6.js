@@ -1,5 +1,5 @@
 function load() {
-    for (const [slot, subject] of Object.entries(SUBJECTS5)) {
+    for (const [slot, subject] of Object.entries(SUBJECTS6)) {
       var anchors = document.getElementsByClassName(slot);
       for(var i = 0; i < anchors.length; i++) {
           anchors[i].innerHTML = subject.name;
@@ -17,18 +17,18 @@ function load() {
         id = 'p'+i.toString()+j.toString();
         if (j == 0) {
           var anchor = document.getElementById(id+'a');
-          anchor.innerHTML = PRACTICALS5[i][j][0];
+          anchor.innerHTML = PRACTICALS6[i][j][0];
           anchor = document.getElementById(id+'b');
-          anchor.innerHTML = PRACTICALS5[i][j][1];
+          anchor.innerHTML = PRACTICALS6[i][j][1];
         }
         else {
           var anchor = document.getElementById(id);
-          anchor.innerHTML = PRACTICALS5[i][j];
+          anchor.innerHTML = PRACTICALS6[i][j];
         }
       }
     }
   }
   
   // window.onload = load; // onload
-  const p = document.getElementById('Sem5btn');
+  const p = document.getElementById('Sem6btn');
   p.onclick = load;
