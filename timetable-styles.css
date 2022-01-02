@@ -9,11 +9,15 @@
 /* body {
     background-image: url('bg.png');
   } */
-  
+  table {
+    background-color: transparent;
+  }
+
   td,th {
     /* background-color: rgba(153, 50, 204, 0.7); */
     /* background-color: rgb(100, 149, 237); */
     background-color: #b1d0e0;
+    
     
     /* background-image: url('bg.png'); */
 
@@ -26,11 +30,11 @@
   } */
 
   td, th, tr {
-    border: 1px solid rgb(0, 0, 0) !important;
+    border: 1px solid black !important;
     font-size: medium;
-    /* color: black; */
+    color: black;
     /* color: white; */
-    color: #1a374d;
+    /* color: #1a374d; */
   } 
   
   td:hover, td:active {

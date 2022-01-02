@@ -1,7 +1,8 @@
 const SUBJECTS6 = {
-    "6IEM": {
-      name: "IEM",
-      link: ""
+    
+    "6EPU" : {
+      name:"EPU",
+      link:""
     },
   
     "6FACTS": {
@@ -30,17 +31,17 @@ const SUBJECTS6 = {
     },
     
      "6OCHMA": {
-      name: "OC/HM Slot A",
+      name: "Slot A",
       link: ""
     },
     
      "6OCHMB": {
-      name: "OC/HM Slot B",
+      name: "Slot B",
       link: ""
     },
   
     "6OCHMF": {
-      name: "OC/HM Slot F",
+      name: "CMPS",
       link: ""
     },
   
