@@ -9,11 +9,16 @@
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <!-- custom css file link  -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="timetable-styles.css">
 
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body oncontextmenu="return false">
@@ -24,7 +29,7 @@
     <header>
 
         <a href="#" class="logo"><i class="fas fa-graduation-cap">Electrical Department</i></a>
-               
+
 
         <nav class="navbar">
             <ul>
@@ -36,8 +41,8 @@
                 <li><a href="#Notes">B-Tech Notes</a></li>
                 <li><a href="https://studentportal.vnit.ac.in/home/" target="blank">Student
                         Portal</a></li>
-                
-                
+
+
             </ul>
         </nav>
 
@@ -55,26 +60,32 @@
         <div class="content" id="slide-in-fwd-top">
             <h1>EEE Student Activity Hub</h1>
             <p></p>
-            <a href="MTT/modal.html" ><button>Midsem TT</button></a>
+            <a href="MTT/modal.html"><button>Midsem TT</button></a>
         </div>
 
         <div class="box-container">
 
             <div class="box" id="roll-in-bottom">
                 <i class="fas fa-graduation-cap"></i>
-                <a href="council.html" target="blank"><h3 id="fc">Department Council</h3></a>
+                <a href="council-page/council.html" target="blank">
+                    <h3 id="fc">Department Council</h3>
+                </a>
                 <p>Click here to know more about Department Council</p>
             </div>
 
             <div class="box" id="roll-in-bottom">
                 <i class="fas fa-calendar-week"></i>
-                <a href="iframe.html" target="blank"><h3 id="fc">Academic Calendar</h3></a>
+                <a href="iframe.html" target="blank">
+                    <h3 id="fc">Academic Calendar</h3>
+                </a>
                 <p>Click here for Academic Calendar</p>
             </div>
 
             <div class="box" id="roll-in-bottom">
                 <i class="fab fa-hive"></i>
-                <a href="Student Events/index.html" target="blank"><h3 id="fc">Student Activities</h3></a>
+                <a href="Student Events/index.html" target="blank">
+                    <h3 id="fc">Student Activities</h3>
+                </a>
                 <p>Click here to see Student Activities</p>
             </div>
 
@@ -91,41 +102,423 @@
         <h3 class="title">All semester's Digital Time Tables</h3>
 
 
-        <div class="box-container" >
+        <div class="box-container">
 
 
-
+            <!-- Fourth Semester -->
             <div class="box">
                 <i class="far fa-calendar-alt"></i>
-                <h3><a href="https://electrical-vnit.github.io/Academic-Time-Table/EEE_Sem3/index.html" target="blank">Third Semester</a></h3>
-                <p>Click here to see Time Table of 3rd Semester</p>
-            </div>
-            <!--<div class="box">
-                <i class="far fa-calendar-alt"></i>
-                <h3><a href="timeTable.html" target="blank">Fourth Semester</a></h3>
+                <h1><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Sem3TT" id="Sem4btn">
+                        Fourth Semester
+                    </button></h1>
+
+
                 <p>Click here to see Time Table of 4th Semester</p>
-            </div>-->
-            <div class="box">
-                <i class="far fa-calendar-alt"></i>
-                <h3><a href="Academic-Time-Table/EEE_Sem5/index.html" target="blank">Fifth Semester</a></h3>
-                <p>Click here to see Time Table of 5th Semester</p>
             </div>
-           <!--<div class="box">
-                <i class="far fa-calendar-alt"></i>
-                <h3><a href="#"target="blank">Sixth Semester</a></h3>
-                <p>Click here to see Time Table of 6th Semester</p>
-            </div>-->
-            <div class="box">
-                <i class="far fa-calendar-alt"></i>
-                <h3><a href="https://electrical-vnit.github.io/Academic-Time-Table/EEE_Sem7/index.html" target="blank">Seventh Semester</a></h3>
-                <p>Click here to see Time Table of 7th Semester</p>
-            </div>
-           <!--<div class="box">
-                <i class="far fa-calendar-alt"></i>
-                <h3><a href="#" target="blank">Eighth Semester</a></h3>
-                <p>Click here to see Time Table of 8th Semester</p>
-            </div>-->
+            <div class="modal fade " id="Sem3TT" tabindex="-1" role="dialog" aria-labelledby="Sem3Title"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="Sem3Title">4<sup>th</sup> Sem Time Table</h5>     
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
 
+                            <h1 class="text-center text-dark">EEE 2<sup>nd</sup> YEAR TIME TABLE (S-22)</h1>
+
+                            <table class="table table-bordered table-responsive-md">
+                                <thead>
+                                    <tr>
+                                        <td></td>
+                                        <th colspan="2" scope="col">08:00 - 08:55</th>
+                                        <th colspan="2" scope="col">09:00 - 09:55</th>
+                                        <th colspan="2" scope="col">10:00 - 10:55</th>
+                                        <th colspan="2" scope="col">11:00 - 11:55</th>
+                                        <th colspan="2" scope="col">12:00 - 12:55</th>
+                                        <th colspan="2" scope="col">13:00 - 13:55</th>
+                                        <th colspan="2" scope="col">14:00 - 14:55</th>
+                                        <th colspan="2" scope="col">15:00 - 15:55</th>
+                                        <th colspan="2" scope="col">16:00 - 16:55</th>
+                                        <th colspan="2" scope="col">17:00 - 17:55</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">MONDAY</th>
+                                        <td colspan="2" class="4DC">DgitialC</td>
+                                        <td colspan="2" class="">OC/HM slot A</td>
+                                        <td colspan="1" class="4EPU">ElectricalPU</td> 
+                                        <td colspan="1" class="4DS">slot B OC/HM</td> 
+                                        <td colspan="2" class="4EM-1">ElectricalM-1</td>
+                                        <td colspan="2" class="4PSP">PowerSP</td>
+                                        <td rowspan="6" colspan="2" class="noHover"><br><br>B<br>R<br>E<br>A<br>K</td>
+                                        <td colspan="2" class="slotS4"></td>
+                                        <td colspan="2" class="slotS4"></td>
+                                        <td colspan="2" class="slotS4"></td>
+                                        <td colspan="2" class="slotS3"></td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">TUESDAY</th>
+                                        <td colspan="2" class="slotS3">OC/HM slot A</td>
+                                        <td colspan="2" class="4DC">DigitalC</td>
+                                        <td colspan="2" class="4EPS-1">ElectricalPS</td>
+                                        <td colspan="2" class="4NMPT">NumericalMPT</td>
+                                        <td colspan="2" class="4LEC">LinearEC</td>
+                                        <td colspan="2" class="slotS3"></td>
+                                        <td colspan="2" class="slotS3"></td>
+                                        <td colspan="2" class="slotS3"></td>
+                                        <td colspan="2" class="slotS3"></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">WEDNESDAY</th>
+                                        <td colspan="2" class="4EPS-1">ElectricalPS</td>
+                                        <td colspan="2" class="slotS3">OC/HM slot A</td>
+                                        <td colspan="1" class="4EPU">ElectricalPU</td>
+                                        <td colspan="1" class="4DS">slot B OC/HM</td> 
+                                        <td colspan="2" class="4NMPT">NumericalMPT</td>
+                                        <td colspan="2" class="4LEC">LinearEC</td>
+                                        <td colspan="2" class="slotS3"></td>
+                                        <td colspan="2" class="slotS3"></td>
+                                        <td colspan="2" class="slotS3"></td>
+                                        <td colspan="2" ></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">THURSDAY</th>
+                                        <td colspan="1" class="4EPU">ElectricalPU</td>
+                                        <td colspan="1" class="4DS">slot B OC/HM</td> 
+                                        <td colspan="2" class="4PSP">PowerSP</td>
+                                        <td colspan="2" class="4EM-1">ElectricalM-1</td>
+                                        <td colspan="2" class="4DC">DigitalC</td>
+                                        <td colspan="2" class="4EPS-1">ElectricalPS</td>
+                                        <td colspan="2" class="slotS3"></td>
+                                        <td colspan="2" class="slotS3"></td>
+                                        <td colspan="2" class="slotS3"></td>
+                                        <td colspan="2" ></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">FRIDAY</th>
+                                        <td colspan="2" class="slotS3">OC/HM slot A</td>
+                                        <td colspan="2" class="4PSP">PowerSP</td>
+                                        <td colspan="2" class="4EM-1">ElectricalM-1</td>
+                                        <td colspan="2" class="4LEC">LinearEC</td>
+                                        <td colspan="2" class="4NMPT">NumericalMPT</td>
+                                        <td colspan="2" class="slotS3"></td>
+                                        <td colspan="2" class="slotS3"></td>
+                                        <td colspan="2" class="slotS3"></td>
+                                        <td colspan="2" ></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">SATURDAY</th>
+                                        <td colspan="2" class="slotS3"></td>
+                                        <td colspan="2" class="4NMPT">NumericalMPT</td>
+                                        <td colspan="2" class="4LEC">LinearEC</td>
+                                        <td colspan="2" class="4PSP">PowerSP</td>
+                                        <td colspan="2" class="4EM-1">ElectricalM-1</td>
+                                        <td colspan="1" class="4EPU">ElectricalPU</td>
+                                        <td colspan="1" class="4DS">slot B OC/HM</td> 
+                                        <td colspan="2" class="4DC">DigitalC</td>
+                                        <td colspan="2" class="4EPS-1">ElectricalPS</td>
+                                        <td colspan="2" ></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Sixth Semester -->
+            <div class="box">
+                <i class="far fa-calendar-alt"></i>
+                <h1><button id="Sem6btn" type="button" class="btn btn-primary" data-toggle="modal" data-target="#Sem5TT">
+                        Sixth Semester
+                    </button></h1>
+                <p>Click here to see Time Table of 6th Semester</p>
+            </div>
+            <div class="modal fade " id="Sem5TT" tabindex="-1" role="dialog" aria-labelledby="Sem5Title"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="Sem5Title">6<sup>th</sup> Sem Time Table</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+
+                            <h1 class="text-center text-dark">EEE 3<sup>rd</sup> YEAR TIME TABLE (S-22)</h1>
+
+                            <table class="table tabele-bordered table-responsive-md">
+                                <thead>
+                                    <tr>
+                                        <td></td>
+                                        <th colspan="2" scope="col">08:00 - 08:55</th>
+                                        <th colspan="2" scope="col">09:00 - 09:55</th>
+                                        <th colspan="2" scope="col">10:00 - 10:55</th>
+                                        <th colspan="2" scope="col">11:00 - 11:55</th>
+                                        <th colspan="2" scope="col">12:00 - 12:55</th>
+                                        <th colspan="2" scope="col">13:00 - 13:55</th>
+                                        <th colspan="2" scope="col">14:00 - 14:55</th>
+                                        <th colspan="2" scope="col">15:00 - 15:55</th>
+                                        <th colspan="2" scope="col">16:00 - 16:55</th>
+                                        <th colspan="2" scope="col">17:00 - 17:55</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">MONDAY</th>
+                                        
+                                        <td colspan="2" class="6FACTS">F.A.C.T.S</td>
+                                        <td colspan="2" class="6OCHMA">OC/HM A</td>
+                                        <td colspan="1" class="6OCHMB">OC/HM B</td>
+                                        <td colspan="1" class="6EPU"></td>
+                                        <td colspan="2" class="6MC">MicroC</td>
+                                        <td colspan="2" class="6LEC">LinearEC</td>
+                                        <td colspan="2" rowspan="6" class="noHover"><br><br>B<br>R<br>E<br>A<br>K</td>
+                                        <td colspan="2" class="6slotH"></td>
+                                        <td colspan="2" class="6slot"></td>
+                                        <td colspan="2" id="p00a"></td>
+                                        <td colspan="2" id="p01"></td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">TUESDAY</th>
+                                        <td colspan="2" class="6OCHMA">OC/HM A</td>
+                                        
+                                        <td colspan="2" class="6FACTS">F.A.C.T.S</td>
+                                        <td colspan="2" class="6SG&P">SwitchG&P</td>
+                                        <td colspan="2" class="6ED&C">ElectricD&C</td>
+                                        <td colspan="2" class="6OCHMF">OC/HM F</td>
+                                        <td colspan="2" class="6slotDb_tue"></td>
+                                        <td colspan="2" class="6slotA"></td>
+                                        <td colspan="2" class="6slotE"></td>
+                                        <td colspan="2" id="p11"></td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <th  scope="row">WEDNESDAY</th>
+                                        <td colspan="2" class="6SG&P">SwitchG&P</td>
+                                        <td colspan="2" class="6OCHMA">OC/HM A</td>
+                                        <td colspan="1" class="6OCHMB">OC/HM B</td>
+                                        <td colspan="1" class="6EPU">OC/HM B</td>
+                                        <td colspan="2" class="6ED&C">ElectricD&C</td>
+                                        <td colspan="2" class="6OCHMF">OC/HM F</td>
+                                        <td colspan="2" class="6slotFb_wed"></td>
+                                        <td colspan="2" class="6slotFb_wed"></td>
+                                        <td colspan="2" class="6slotFa_wed"></td>
+                                        <td colspan="2" id="p20a"></td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <th  scope="row">THURSDAY</th>
+                                        <td colspan="1" class="6OCHMB">OC/HM B</td>
+                                        <td colspan="1" class="6EPU">OC/HM B</td>
+                                        <td colspan="2" class="6LEC">LinearEC/td>
+                                        <td colspan="2" class="6MC">MicroC</td>
+                                        
+                                        <td colspan="2" class="6FACTS">F.A.C.T.S</td>
+                                        <td colspan="2" class="6SG&P">SwitchG&P</td>
+                                        <td colspan="2" class="6slot">slot G</td>
+                                        <td colspan="2" id="p30a"></td>
+                                        <td colspan="2" id="p30b"></td>
+                                        <td colspan="2" id="p31"></td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <th  scope="row">FRIDAY</th>
+                                        <td colspan="2" class="6OCHMA">OC/HM A</td>
+                                        <td colspan="2" class="6LEC">LEC</td>
+                                        <td colspan="2" class="6MC">MicroC</td>
+                                        <td colspan="2" class="6OCHMF">OC/HM F</td>
+                                        <td colspan="2" class="6ED&C" >ElectricD&C</td>
+                                        <td colspan="2" class="6slotDb_fri"></td>
+                                        <td colspan="2" class="6slotE"></td>
+                                        <td colspan="2" id="p40a"></td>
+                                        <td colspan="2" id="p40b"></td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">SATURDAY</th>
+                                        <td colspan="2" class=""></td>
+                                        <td colspan="2" class="6ED&C">ElectricD&C</td>
+                                        <td colspan="2" class="6OCHMF">OC/HM F</td>
+                                        <td colspan="2" class="6LEC">LinearEC</td>
+                                        <td colspan="2" class="6MC">MicroC</td>
+                                        <td colspan="1" class="6OCHMB">OC/HM B</td>
+                                        <td colspan="1" class="6EPU">OC/HM B</td>
+                                        <td colspan="2" class="6FACTS">F.A.C.T.S</td>
+                                        <td colspan="2" class="6SG&P">SwitchG&P</td>
+                                        <td colspan="2" id="p51"></td>
+                                        
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <!-- <div id="test" class="modal fade" tabindex="-1" style="display: none; background-color: rgba(0,0,0,0.5);">
+                            <div class="modal-dialog">
+                              <div class="modal-content text-left" style="background-color: rgb(75, 0, 130);">
+                                <div class="modal-header">
+                                  <h4 class="modal-title 5slotDa">SlotD</h4>
+                                  <button type="button" class="close" onclick="closeModal()"><span>×</span></button>
+                                </div>
+                                <div class="modal-body">
+                                  Zoom Link: <a href="javascript:void(0);" onClick="window.open(SUBJECTS5.slotDa5.link);"><script type="text/javascript">document.write(SUBJECTS5.slotDa5.link);</script></a>
+                                  <br>
+                                  Password: <code>psd1</code>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <script type="text/javascript">
+                            function showModal() {
+                              var x = document.getElementById("test");
+                              x.classList.add('show')
+                              x.style.display = "block";
+                          }
+                            function closeModal() {
+                              var x = document.getElementById("test");
+                              x.classList.remove('show')
+                              x.style.display = "none";
+                            }
+                          </script>  -->
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Eigth Semester -->
+            <div class="box">
+                <i class="far fa-calendar-alt"></i>
+                <h1><button id="Sem8btn" type="button" class="btn btn-primary" data-toggle="modal" data-target="#Sem7TT">
+                        Eighth Semester
+                    </button></h1>
+                <p>Click here to see Time Table of 8th Semester</p>
+            </div>
+            <div class="modal fade " id="Sem7TT" tabindex="-1" role="dialog" aria-labelledby="Sem7Title"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="Sem7Title">8<sup>th</sup> Sem Time Table</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+
+                            <h1 class="text-center text-dark">EEE 4<sup>th</sup> YEAR TIME TABLE (S-22)</h1>
+                            <table class="table table-responsive-md">
+                                <thead>
+                                    <tr>
+                                        <td></td>
+                                        <th colspan="2" scope="col">08:00 - 08:55</th>
+                                        <th colspan="2" scope="col">09:00 - 09:55</th>
+                                        <th colspan="2" scope="col">10:00 - 10:55</th>
+                                        <th colspan="2" scope="col">11:00 - 11:55</th>
+                                        <th colspan="2" scope="col">12:00 - 12:55</th>
+                                        <th colspan="2" scope="col">13:00 - 13:55</th>
+                                        <th colspan="2" scope="col">14:00 - 14:55</th>
+                                        <th colspan="2" scope="col">15:00 - 15:55</th>
+                                        <th colspan="2" scope="col">16:00 - 16:55</th>
+                                        <th colspan="2" scope="col">17:00 - 17:55</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">MONDAY</th>
+                                        <td colspan="2" class="8SG">Smart G</td>
+                                        <td colspan="2" class="8OCHMA">OC/HM A</td>
+                                        <td colspan="2" class="8OCHMB">OC/HM B</td>
+                                        <td colspan="2" class="8RPS">R.P.S</td>
+                                        <td colspan="2" class="8RES">R.E.S</td>
+                                        <td colspan="2" rowspan="6" class="noHover"><br>B<br>R<br>E<br>A<br>K</td>
+                                        <td colspan="2" class="7slotH"></td>
+                                        <td colspan="2" class="7slot"></td>
+                                        <td colspan="2" class="7slotprac3"></td>
+                                        <td colspan="2" class=""></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">TUESDAY</th>
+                                        <td colspan="2" class="8OCHMA">OC/HM A</td>
+                                        <td colspan="2" class="8SG">Smart G</td>
+                                        <td colspan="2" class="8CMEC">C.M.E.C</td>
+                                        <td colspan="2" class="8CS-2">C.S - 2</td>
+                                        <td colspan="2" class="8OCHMF"></td>
+                                        <td colspan="2" class="7slot"></td>
+                                        <td colspan="2" class="7slotprac4"></td>
+                                        <td colspan="2" class=""></td>
+                                        <td colspan="2" class=""></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">WEDNESDAY</th>
+                                        <td colspan="2" class="8CMEC">C.M.E.C</td>
+                                        <td colspan="2" class="8OCHMA">OC/HM A</td>
+                                        <td colspan="2" class="8OCHMB">OC/HM B</td>
+                                        <td colspan="2" class="8CS-2">C.S - 2</td>
+                                        <td colspan="2" class="8OCHMF">OC/HM F</td>
+                                        <td colspan="2" class=""></td>
+                                        <td colspan="2" class="7slotprac5"></td>
+                                        <td colspan="2" class=""></td>
+                                        <td colspan="2" class=""></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">THURSDAY</th>
+                                        <td colspan="2" class="8OCHMB">OC/HM B</td>
+                                        <td colspan="2" class="8RES">R.E.S</td>
+                                        <td colspan="2" class="8RPS">R.P.S</td>
+                                        <td colspan="2" class="8SG">Smart G</td>
+                                        <td colspan="2" class="8CMEC">C.M.E.C</td>
+                                        <td colspan="2" class="7sl"></td>
+                                        <td colspan="2" class="7slotprac6"></td>
+                                        <td colspan="2" class=""></td>
+                                        <td colspan="2" class=""></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">FRIDAY</th>
+                                        <td colspan="2" class="8OCHMA">OC/HM A</td>
+                                        <td colspan="2" class="8RES">R.E.S</td>
+                                        <td colspan="2" class="8RPS">R.P.S</td>
+                                        <td colspan="2" class="8OCHMF">OC/HM F</td>
+                                        <td colspan="2" class="8CS-2">C.S. - 2</td>
+                                        <td colspan="2" class="7slot"></td>
+                                        <td colspan="2" class="7slotprac1"></td>
+                                        <td colspan="2" class=""></td>
+                                        <td colspan="2" class=""></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">SATURDAY</th>
+                                        <td colspan="2" class="8slot"></td>
+                                        <td colspan="2" class="8CS-2">C.S. - 2</td>
+                                        <td colspan="2" class="8OCHMF">OC/HM F</td>
+                                        <td colspan="2" class="8RES">R.E.S</td>
+                                        <td colspan="2" class="8RPS">R.P.S</td>
+                                        <td colspan="2" class="8OCHMB">OC/HM B</td>
+                                        <td colspan="2" class="8SG">Smart G</td>
+                                        <td colspan="2" class="8CMEC">C.M.E.C</td>
+                                        <td colspan="2" class=""></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </section>
@@ -142,36 +535,42 @@
             <div class="box">
 
                 <i class="fas fa-book"></i>
-                <h3><a href="https://drive.google.com/drive/folders/1XfNNaMh2NDSQNUe7DOLyrQ4mHxMebcvO?usp=sharing" target="blank">Third Semester</a></h3>
+                <h3><a href="https://drive.google.com/drive/folders/1XfNNaMh2NDSQNUe7DOLyrQ4mHxMebcvO?usp=sharing"
+                        target="blank">Third Semester</a></h3>
                 <p>Click here to see Lecture Notes of 3rd Semester</p>
             </div>
             <div class="box">
                 <i class="fas fa-book"></i>
-                <h3><a href="https://drive.google.com/drive/folders/1jxyO2IdFNHtM08_JUZsLT2v79tJE6m1O?usp=sharing" target="blank">Fourth Semester</a></h3>
+                <h3><a href="https://drive.google.com/drive/folders/1jxyO2IdFNHtM08_JUZsLT2v79tJE6m1O?usp=sharing"
+                        target="blank">Fourth Semester</a></h3>
                 <p>Click here to see Lecture Notes of 4th Semester</p>
             </div>
             <div class="box">
                 <i class="fas fa-book"></i>
-                <h3><a href="https://drive.google.com/drive/folders/1A8ffuX_GTT4yTOZ12aafZlvz-5a7XBsS?usp=sharing" target="blank">Fifth Semester</a></h3>
+                <h3><a href="https://drive.google.com/drive/folders/1A8ffuX_GTT4yTOZ12aafZlvz-5a7XBsS?usp=sharing"
+                        target="blank">Fifth Semester</a></h3>
                 <p>Click here to see Lecture Notes of 5th Semester</p>
             </div>
             <div class="box">
                 <i class="fas fa-book"></i>
-                <h3><a href="https://drive.google.com/drive/folders/1oK9iaAmqnql1ypD7lsiGs_mwR9PY6AlR?usp=sharing" target="blank">Sixth Semester</a></h3>
+                <h3><a href="https://drive.google.com/drive/folders/1oK9iaAmqnql1ypD7lsiGs_mwR9PY6AlR?usp=sharing"
+                        target="blank">Sixth Semester</a></h3>
                 <p>Click here to see Lecture Notes of 6th Semester</p>
             </div>
             <div class="box">
                 <i class="fas fa-book"></i>
-                <h3><a href="https://drive.google.com/drive/folders/1qUQ1KM144uRAzkaGuwPecSufuWaLP26T?usp=sharing" target="blank">Seventh Semester</a></h3>
+                <h3><a href="https://drive.google.com/drive/folders/1qUQ1KM144uRAzkaGuwPecSufuWaLP26T?usp=sharing"
+                        target="blank">Seventh Semester</a></h3>
                 <p>Click here to see Lecture Notes of 7th Semester</p>
             </div>
             <div class="box">
                 <i class="fas fa-book"></i>
-                <h3><a href="https://drive.google.com/drive/folders/1LLI4UuQSqOvFV5n-wOoi6Y2FLUGUZ034?usp=sharing" target="blank">Eighth Semester</a></h3>
+                <h3><a href="https://drive.google.com/drive/folders/1LLI4UuQSqOvFV5n-wOoi6Y2FLUGUZ034?usp=sharing"
+                        target="blank">Eighth Semester</a></h3>
                 <p>Click here to see Lecture Notes of 8th Semester</p>
-            </div>
+            </div> 
 
-        </div>
+        </div> 
 
     </section>
 
@@ -219,12 +618,13 @@
             <div class="form-container">
                 <form action="" method="POST" onsubmit="return false">
                     <input type="text" placeholder="full name" name="name">
-                    <input type="email" autocorrect="off" autocapitalize="none" placeholder="enter your email" name="email">
+                    <input type="email" autocorrect="off" autocapitalize="none" placeholder="enter your email"
+                        name="email">
                     <input type="number" placeholder="phone" name="phone">
                     <textarea name="message" id="" cols="30" rows="10" placeholder="message"></textarea>
-                    <input type="submit" value="message" id="message" >
+                    <input type="submit" value="message" id="message">
                 </form>
-            </div>
+            </div> 
 
         </div>
 
@@ -244,15 +644,40 @@
 
     </section>
 
+    
     <!-- jquery cdn link  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- bootstrap js link -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
     <!-- custom js file link  -->
     <script src="main.js"></script>
     <script src="email.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
 
+    <!-- timetable js files -->
+    
+    
+   
+    <script src="sem4-tt-js/timetable-subjects-sem4.js"></script>
+    <script src="sem6-tt-js/timetable-subjects-sem6.js"></script>
+    <script src="sem8-tt-js/timetable-subjects-sem8.js"></script>
 
+    <!-- Order matters here! Need to figure out to load one at a time! -->
+    <script src="sem8-tt-js/timetable-script-sem8.js"></script>
+    <script src="sem6-tt-js/timetable-script-sem6.js"></script>
+    <script src="sem4-tt-js/timetable-script-sem4.js"></script>
+    
+    
 </body>
 
 </html>
