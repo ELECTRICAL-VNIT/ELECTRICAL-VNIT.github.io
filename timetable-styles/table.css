@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 .teal {
   background: #daffcc;
 }
@@ -33,23 +33,19 @@
   border-radius: 4%;
 }
 
-body {
-  background: white;
-  padding: 20px;
-  background-color: whitesmoke;
-}
 
 
 
 
 table {
-  font-family: 'Open Sans', Helvetica;
+  /* font-family: 'Roboto', sans-serif; */
   color: black;
   font-weight: 500;
   height: 150%;
   width: 100%;
   background-color: transparent;
   padding: 1%;
+  font-size: 1.5rem;
 }
 td {
     color: black;
@@ -82,7 +78,7 @@ table th, table td {
   text-align:end;
   /* background: #fff; */
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 1.2rem;
   /* border: solid #fff; */
   pointer-events: none;
     color: black;
@@ -91,7 +87,7 @@ table th, table td {
 .days{
   /* background: #fff; */
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: center;
   color: black;
 }
