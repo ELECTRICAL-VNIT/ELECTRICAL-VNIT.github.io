@@ -7,8 +7,19 @@
    flex-wrap: wrap;
    font-size: 1.5rem;
    font-family: 'Roboto',sans-serif;
+   font-weight: 500;
+   height: 140%;
  }
 
+ .box-tt h3 {
+   font-weight: 400;
+   
+
+ }
+
+ .box-tt p {
+   padding-top: 2%;
+ }
 
  .container_days
 {
@@ -106,9 +117,9 @@
    
    }
    
-   .tt {
+  /*  .tt {
        color:black;
        padding: 25px;
-       height: 125%;
+       height: 150%;
        width: auto;
-   }
+   } */
