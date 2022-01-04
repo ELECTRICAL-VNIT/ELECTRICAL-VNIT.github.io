@@ -1,0 +1,112 @@
+ /*  */
+ .box-tt
+ {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   font-family:sans-serif ;
+   font-size: 16px;
+   
+ }
+ .container_days
+{
+   display: flex;
+    gap:2%; 
+   align-items: center;
+   flex-direction: row;
+   background-color:D6D6D7 ; 
+   
+ 
+   
+
+}
+.tablinks
+{
+     border: 2px solid rgba(248, 241, 241, 0.103);
+     border-radius: 3px;
+     width: 100%;
+     height: 50px;
+     display: flex;
+     /* margin-left: 10px; */
+   
+     background-color:rgb(207, 206, 206);
+     align-items: center;
+     justify-content: center;
+     min-width: 0;
+ 
+}
+.tablinks:hover{
+ background-color:#a1a3a5
+}
+.tablinks:focus{
+ background-color:#0d1317;
+ color:white
+
+}
+
+
+.tabcontent {
+   margin: 4px 0;
+}
+.tabcontent {
+ animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+ from {opacity: 0;}
+ to {opacity: 1;}
+}
+
+
+   /* Style the tab */
+   .days{
+     flex-direction: column;
+     flex-wrap: wrap;
+     
+   }
+  
+   /* Style the tab content */
+   .classbox1 {
+       border: 2px solid rgba(128, 128, 128, 0.103);
+         border-radius: 5px;
+         width: auto;
+         height: 100px;
+         display: flex;
+         flex-direction: row;
+         /* margin-left: 10px; */
+         /* padding: auto; */
+         
+         background-color:#daffcc;
+   
+   }
+   .classbox2 {
+       border: 2px solid rgba(128, 128, 128, 0.103);
+         border-radius: 5px;
+         width: auto;
+         height: 100px;
+         display: flex;
+         /* margin-left: 10px; */
+         padding: auto;
+         background-color:#ccf2ff;
+   
+   }
+   .classbox3 {
+       border: 2px solid rgba(128, 128, 128, 0.103);
+         border-radius: 5px;
+         width: auto;
+         height: 100px;
+         display: flex;
+         /* margin-left: 10px; */
+         padding: auto;
+         background-color:#fccfe9;
+   
+   }
+   
+   .tt {
+       color:black;
+       padding: 25px;
+       height: 125%;
+       width: auto;
+   }

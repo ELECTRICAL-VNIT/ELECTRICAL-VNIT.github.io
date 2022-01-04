@@ -24,7 +24,7 @@
 }
 
 .purple {
-  background: #d7adeb;
+  background: #bcf0da;
 }
 
 .lectures {
@@ -36,7 +36,6 @@
 body {
   background: white;
   padding: 20px;
-  
   background-color: whitesmoke;
 }
 
@@ -48,8 +47,9 @@ table {
   color: black;
   font-weight: 500;
   height: 150%;
-  width: 99%;
+  width: 100%;
   background-color: transparent;
+  padding: 1%;
 }
 td {
     color: black;
