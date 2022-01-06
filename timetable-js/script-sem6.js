@@ -19,8 +19,16 @@ function openCitySix(evt, dayName) {
 
   // Get the element with id="defaultOpen" and click on it
  
+  var sem6days =  document.getElementsByClassName("tablinks6");
+  
+  var j = d.getDay();
+
+  if(j!=0){
+    sem6days[j-1].setAttribute('id','defaultOpen6');
+  } else {
+    sem6days[0].setAttribute('id','defaultOpen6');
+  }
+  
 
 
-
-const b = document.getElementById("defaultOpen6"); 
-b.click();
+document.getElementById("defaultOpen6").click(); 

@@ -17,6 +17,16 @@ function openCityFour(evt, dayName) {
   
   }
 
-  // Get the element with id="defaultOpen" and click on it
+var sem4days =  document.getElementsByClassName("tablinks4");
+const d = new Date();
+var i = d.getDay();
+
+if(i!=0){
+  sem4days[i-1].setAttribute('id','defaultOpen4');
+} else {
+  sem4days[0].setAttribute('id','defaultOpen4');
+}
   
-document.getElementById("defaultOpen").click(); 
+// Get the element with id="defaultOpen" and click on it
+  
+document.getElementById("defaultOpen4").click(); 

@@ -19,6 +19,16 @@ function openCityEight(evt, dayName) {
 
   // Get the element with id="defaultOpen" and click on it
  
+  var sem8days =  document.getElementsByClassName("tablinks8");
+  
+  var k = d.getDay();
 
-const c = document.getElementById("defaultOpen8"); 
-c.click();
+  if(k!=0){
+    sem8days[k-1].setAttribute('id','defaultOpen8');
+  } else {
+    sem8days[0].setAttribute('id','defaultOpen8');
+  }
+   
+
+
+document.getElementById("defaultOpen8").click(); 
