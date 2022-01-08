@@ -30,17 +30,17 @@ const SUBJECTS6 = {
       link: ""
     },
     
-     "6OCHMA": {
+     "6A": {
       name: "Slot A",
       link: ""
     },
     
-     "6OCHMB": {
+     "6B": {
       name: "Slot B",
       link: ""
     },
   
-    "6OCHMF": {
+    "6CMPS": {
       name: "CMPS",
       link: ""
     },

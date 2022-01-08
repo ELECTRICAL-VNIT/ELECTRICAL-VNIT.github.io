@@ -5,7 +5,7 @@ const SUBJECTS4 = {
     },
   
     "4EPU": {
-      name: "EPU",
+      name: "Electrical Power Utilisation",
       link: ""
     },
     
@@ -15,32 +15,32 @@ const SUBJECTS4 = {
     },
 
     "4DC": {
-      name: "DC",
+      name: "Digital Circuits",
       link: "https://vnit.webex.com/meet/pujakhangar.aapp"
     },
   
     "4EPS-1": {
-      name: "EPS-1",
+      name: "Electrical Power System-1",
       link: ""
     },
   
     "4NMPT": {
-      name: "NMPT",
+      name: "Numerical Methods & Probabilty Theory",
       link: "https://vnit.webex.com/meet/adhocstaff117"
     },
   
     "4LEC": {
-      name: "LEC",
+      name: "Linear Electronic Circuits",
       link: ""
     },
   
     "4PSP": {
-      name: "PSP",
+      name: "Power Station Practice",
       link: ""
     },
   
-    "4EM-1": {
-      name: "EM-1",
+    "4EM1": {
+      name: "Electrical Machines-1",
       link: "https://vnit.webex.com/meet/bsumre"
     },
     "slotS4": {

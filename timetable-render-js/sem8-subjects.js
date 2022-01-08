@@ -1,7 +1,7 @@
 const SUBJECTS8 = {
     "8SG": {
       name: "SG",
-      link: ""
+      link: "https://vnit.webex.com/meet/ramshakarampuri"
     },
   
     "8OCHMA": {
@@ -18,10 +18,15 @@ const SUBJECTS8 = {
       name: "RPS",
       link: ""
     },
+
+    "8RESmon": {
+        name:"RES",
+        link: "https://vnit.webex.com/vnit/k2/j.php?MTID=t8ef999ee70a0fba06f907714e63c82a4"
+    },
   
-    "8RES": {
+    "8RESthu": {
       name: "RES",
-      link: ""
+      link: "https://vnit.webex.com/vnit/k2/j.php?MTID=tecbd07bda6e9f799782d38c6f16c70ff"
     },
   
     "8CMEC": {
@@ -29,7 +34,7 @@ const SUBJECTS8 = {
       link: ""
     },
     
-    "8CS-2": {
+    "8CS2": {
       name: "CS-2",
       link: ""
     },

@@ -20,5 +20,5 @@ function load() {
   }
   
   // window.onload = load; // onload
-  const r = document.getElementById('Sem8btn');
+  const r = document.getElementById('sem8jsbtn');
   r.onclick = load;

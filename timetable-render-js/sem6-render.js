@@ -30,5 +30,5 @@ function load() {
   }
   
   // window.onload = load; // onload
-  const p = document.getElementById('Sem6btn');
+  const p = document.getElementById('sem6jsbtn');
   p.onclick = load;
