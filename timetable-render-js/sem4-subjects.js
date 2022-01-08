@@ -31,12 +31,22 @@ const SUBJECTS4 = {
   
     "4LEC": {
       name: "Linear Electronic Circuits",
-      link: ""
+      link: "https://vnit.webex.com/vnit/j.php?MTID=m98e442e7af74359fc2865019913a2444"
     },
   
-    "4PSP": {
+    "4PSPmon": {
       name: "Power Station Practice",
-      link: ""
+      link: "https://vnit.webex.com/vnit/j.php?MTID=mfdc1bcdb1ada57cd0eaa2f00a8fe8456"
+    },
+
+    "4PSPthu": {
+      name: "Power Station Practice",
+      link: "https://vnit.webex.com/vnit/j.php?MTID=me97b54a204112f90d36f733eebfae0cb"
+    },
+
+    "4PSPfri": {
+      name: "Power Station Practice",
+      link: "https://vnit.webex.com/vnit/j.php?MTID=m61da6b389497a2b4cd41b5c02fd69446"
     },
   
     "4EM1": {
