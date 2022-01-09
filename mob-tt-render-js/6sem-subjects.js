@@ -17,7 +17,7 @@ const LEC6 = document.getElementsByClassName("sem6LEC");
 
 for(var i=0; i<LEC6.length; i++) {
 
-   LEC6[i].setAttribute("href","https://vnit.webex.com/meet/srinivassarma.aapp") ;
+   LEC6[i].setAttribute("href","") ;
 
 }
 
@@ -33,7 +33,7 @@ const MicroController = document.getElementsByClassName("sem6MC");
 
 for(var i=0; i<MicroController.length; i++) {
 
-   MicroController[i].setAttribute("href","https://vnit.webex.com/meet/bhooshanar") ;
+   MicroController[i].setAttribute("href","") ;
 
 }
 
@@ -41,7 +41,7 @@ const FACTS = document.getElementsByClassName("sem6FACTS");
 
 for(var i=0; i<FACTS.length; i++) {
 
-   FACTS[i].setAttribute("href","https://meet.google.com/yrd-ugvz-scg") ;
+   FACTS[i].setAttribute("href","") ;
 
 }
 
@@ -49,7 +49,7 @@ const SAP = document.getElementsByClassName("sem6SAP");
 
 for(var i=0; i<SAP.length; i++) {
 
-   SAP[i].setAttribute("href","https://vnit.webex.com/join/vskale") ;
+   SAP[i].setAttribute("href","") ;
 
 }
 
