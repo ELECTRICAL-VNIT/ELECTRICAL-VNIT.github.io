@@ -2,7 +2,7 @@ const SUBJECTS6 = {
     
     "6EPU" : {
       name:"EPU",
-      link:""
+      link:"https://vnit.webex.com/webappng/sites/vnit/meeting/download/1e4b8e8b176b454c622a088ab2d2e4e4"
     },
   
     "6FACTS": {
