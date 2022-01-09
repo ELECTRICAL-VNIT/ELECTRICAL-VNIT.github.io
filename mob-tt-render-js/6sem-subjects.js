@@ -17,7 +17,7 @@ const LEC6 = document.getElementsByClassName("sem6LEC");
 
 for(var i=0; i<LEC6.length; i++) {
 
-   LEC6[i].setAttribute("href","") ;
+   LEC6[i].setAttribute("href","https://vnit.webex.com/meet/srinivassarma.aapp") ;
 
 }
 
