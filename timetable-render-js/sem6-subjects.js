@@ -7,22 +7,22 @@ const SUBJECTS6 = {
   
     "6FACTS": {
       name: "FACTS",
-      link: ""
+      link: "https://meet.google.com/yrd-ugvz-scg"
     },
   
     "6MC": {
       name: "MC",
-      link: ""
+      link: "https://vnit.webex.com/meet/bhooshanar"
     },
   
     "6LEC": {
       name: "LEC",
-      link: ""
+      link: "https://vnit.webex.com/meet/srinivassarma.aapp"
     },
     
      "6SG&P": {
       name: "SG&P",
-      link: ""
+      link: "https://vnit.webex.com/join/vskale"
     },
     
      "6ED&C": {
