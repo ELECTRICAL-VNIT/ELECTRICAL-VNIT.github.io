@@ -20,14 +20,29 @@ const SUBJECTS6 = {
       link: "https://vnit.webex.com/meet/srinivassarma.aapp"
     },
     
-     "6SG&P": {
+    "6SG&P": {
       name: "SG&P",
       link: "https://vnit.webex.com/join/vskale"
     },
     
-     "6ED&C": {
+    "6ED&Ctue": {
       name: "ED&C",
-      link: ""
+      link: "https://vnit.webex.com/vnit/j.php?MTID=m63156ecaaaf968e45e8eee567a98c0cc"
+    },
+
+    "6ED&Cwed": {
+      name: "ED&C",
+      link: "https://vnit.webex.com/vnit/j.php?MTID=m25da67402d0d5ad84508d4f5042b364b"
+    },
+
+    "6ED&Cfri": {
+      name: "ED&C",
+      link: "https://vnit.webex.com/vnit/j.php?MTID=m546c058ac087e9ca0a382f8312474cd4"
+    },
+
+    "6ED&Csat": {
+      name: "ED&C",
+      link: "https://vnit.webex.com/vnit/j.php?MTID=ma6ea17d3d82e9c1a3d89e762de740d14"
     },
     
      "6A": {
