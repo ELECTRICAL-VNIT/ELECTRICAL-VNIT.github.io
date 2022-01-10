@@ -6,7 +6,7 @@ const SUBJECTS4 = {
   
     "4EPU": {
       name: "Electrical Power Utilisation",
-      link: ""
+      link: "https://vnit.webex.com/meet/mrramteke"
     },
     
     "4DS":{
