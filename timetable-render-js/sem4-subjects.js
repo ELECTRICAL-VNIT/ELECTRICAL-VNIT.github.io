@@ -19,9 +19,19 @@ const SUBJECTS4 = {
       link: "https://vnit.webex.com/meet/pujakhangar.aapp"
     },
   
-    "4EPS-1": {
+    "4EPS-1tue": {
       name: "Electrical Power System-1",
-      link: ""
+      link: "https://vnit.webex.com/vnit/j.php?MTID=mb9f8d5d329adb5d161a25cd1496ce8b1"
+    },
+
+    "4EPS-1wed": {
+      name: "Electrical Power System-1",
+      link: "https://vnit.webex.com/vnit/j.php?MTID=me89493d52fbf26f80b54cfecaab98efc"
+    },
+
+    "4EPS-1thu": {
+      name: "Electrical Power System-1",
+      link: "https://vnit.webex.com/vnit/j.php?MTID=mdb3cb554943e7af2596f7aebcad47e66"
     },
   
     "4NMPT": {

@@ -50,7 +50,9 @@
  
  for(var i=0; i<EPS.length; i++) {
 
-    EPS[i].setAttribute("href","") ;
+    EPS[0].setAttribute("href","https://vnit.webex.com/vnit/j.php?MTID=mb9f8d5d329adb5d161a25cd1496ce8b1") ;
+    EPS[1].setAttribute("href","https://vnit.webex.com/vnit/j.php?MTID=me89493d52fbf26f80b54cfecaab98efc") ;
+    EPS[2].setAttribute("href","https://vnit.webex.com/vnit/j.php?MTID=mdb3cb554943e7af2596f7aebcad47e66") ;
 
  }
  
