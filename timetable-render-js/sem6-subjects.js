@@ -27,22 +27,26 @@ const SUBJECTS6 = {
     
     "6ED&Ctue": {
       name: "ED&C",
-      link: "https://vnit.webex.com/vnit/j.php?MTID=m63156ecaaaf968e45e8eee567a98c0cc"
+//       link: "https://vnit.webex.com/vnit/j.php?MTID=m63156ecaaaf968e45e8eee567a98c0cc"
+         link: "https://vnit.webex.com/meet/pradyumn"
     },
 
     "6ED&Cwed": {
       name: "ED&C",
-      link: "https://vnit.webex.com/vnit/j.php?MTID=m25da67402d0d5ad84508d4f5042b364b"
+//       link: "https://vnit.webex.com/vnit/j.php?MTID=m25da67402d0d5ad84508d4f5042b364b"
+         link: "https://vnit.webex.com/meet/pradyumn"
     },
 
     "6ED&Cfri": {
       name: "ED&C",
-      link: "https://vnit.webex.com/vnit/j.php?MTID=m546c058ac087e9ca0a382f8312474cd4"
+//       link: "https://vnit.webex.com/vnit/j.php?MTID=m546c058ac087e9ca0a382f8312474cd4"
+         link: "https://vnit.webex.com/meet/pradyumn"
     },
 
     "6ED&Csat": {
       name: "ED&C",
-      link: "https://vnit.webex.com/vnit/j.php?MTID=ma6ea17d3d82e9c1a3d89e762de740d14"
+     // link: "https://vnit.webex.com/vnit/j.php?MTID=ma6ea17d3d82e9c1a3d89e762de740d14"
+         link: "https://vnit.webex.com/meet/pradyumn"
     },
     
      "6A": {
