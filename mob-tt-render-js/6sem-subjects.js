@@ -10,10 +10,15 @@ const EDAC = document.getElementsByClassName("sem6EDAC");
 
 for(var i=0; i<EDAC.length; i++) {
 
-   EDAC[0].setAttribute("href","https://vnit.webex.com/vnit/j.php?MTID=m63156ecaaaf968e45e8eee567a98c0cc") ;
-   EDAC[1].setAttribute("href","https://vnit.webex.com/vnit/j.php?MTID=m25da67402d0d5ad84508d4f5042b364b") ;
-   EDAC[2].setAttribute("href","https://vnit.webex.com/vnit/j.php?MTID=m546c058ac087e9ca0a382f8312474cd4") ;
-   EDAC[3].setAttribute("href","https://vnit.webex.com/vnit/j.php?MTID=ma6ea17d3d82e9c1a3d89e762de740d14") ;
+//    EDAC[0].setAttribute("href","https://vnit.webex.com/vnit/j.php?MTID=m63156ecaaaf968e45e8eee567a98c0cc") ;
+//    EDAC[1].setAttribute("href","https://vnit.webex.com/vnit/j.php?MTID=m25da67402d0d5ad84508d4f5042b364b") ;
+//    EDAC[2].setAttribute("href","https://vnit.webex.com/vnit/j.php?MTID=m546c058ac087e9ca0a382f8312474cd4") ;
+//    EDAC[3].setAttribute("href","https://vnit.webex.com/vnit/j.php?MTID=ma6ea17d3d82e9c1a3d89e762de740d14") ;
+ 
+  EDAC[0].setAttribute("href","https://vnit.webex.com/meet/pradyumn") ;
+   EDAC[1].setAttribute("href","https://vnit.webex.com/meet/pradyumn") ;
+   EDAC[2].setAttribute("href","https://vnit.webex.com/meet/pradyumn") ;
+   EDAC[3].setAttribute("href","https://vnit.webex.com/meet/pradyumn") ;
 
 }
 const LEC6 = document.getElementsByClassName("sem6LEC");
