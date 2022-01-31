@@ -1,7 +1,7 @@
 const SUBJECTS4 = {
-    "slotAS4": {
-      name: "---",
-      link: ""
+    "4LECLAB": {
+      name: "LEC LAB",
+      link: "https://vnit.webex.com/vnit/j.php?MTID=m87ea7a6d41a57fead58001d780187373"
     },
   
     "4EPU": {
