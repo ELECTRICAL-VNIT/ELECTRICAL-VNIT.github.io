@@ -56,4 +56,6 @@
 
  }
  
+const LECP = document.getElementByClassname("sem4LECP");
 
+    LECP[0].setAttribute("href","https://vnit.webex.com/vnit/j.php?MTID=m87ea7a6d41a57fead58001d780187373");
