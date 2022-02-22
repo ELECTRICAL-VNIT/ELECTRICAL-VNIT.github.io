@@ -59,3 +59,7 @@
 const LECP = document.getElementsByClassName("sem4LECP");
 
     LECP[0].setAttribute("href","https://vnit.webex.com/vnit/j.php?MTID=m87ea7a6d41a57fead58001d780187373");
+
+const PTS = document.getElementsByClassName("sem4PTS");
+
+    PTS[0].setAttribute("href","https://vnit.webex.com/vnit/j.php?MTID=m1a230779d10fbb3e62e037731dfdceb1");
