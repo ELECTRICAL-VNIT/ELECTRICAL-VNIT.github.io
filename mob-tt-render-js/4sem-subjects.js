@@ -18,7 +18,7 @@
  
  for(var i=0; i<NMPT.length; i++) {
 
-    NMPT[i].setAttribute("href","https://vnit.webex.com/meet/adhocstaff117") ;
+    NMPT[i].setAttribute("href","https://vnit.webex.com/vnit/j.php?MTID=md367f11e4091bca05a7960be31f9c2e1") ;
 
  }
 
