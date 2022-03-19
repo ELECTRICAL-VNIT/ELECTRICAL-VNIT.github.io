@@ -41,7 +41,7 @@ const SUBJECTS4 = {
   
     "4NMPT": {
       name: "NMPT",
-      link: "https://vnit.webex.com/meet/adhocstaff117"
+      link: "https://vnit.webex.com/vnit/j.php?MTID=md367f11e4091bca05a7960be31f9c2e1"
     },
   
     "4LEC": {
