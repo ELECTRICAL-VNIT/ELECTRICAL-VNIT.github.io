@@ -26,7 +26,7 @@
  
  for(var i=0; i<LEC.length; i++) {
 
-    LEC[i].setAttribute("href","https://vnit.webex.com/vnit/j.php?MTID=mb05885f90c90dc6e7016792580ed9628") ;
+    LEC[i].setAttribute("href","https://vnit.webex.com/vnit/e.php?MTID=m3fe2dba8b09d0c34e4c6c33e8c0db959") ;
 
  }
 
