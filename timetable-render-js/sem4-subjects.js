@@ -46,7 +46,7 @@ const SUBJECTS4 = {
   
     "4LEC": {
       name: "LEC",
-      link: "https://vnit.webex.com/vnit/j.php?MTID=mb05885f90c90dc6e7016792580ed9628"
+      link: "https://vnit.webex.com/vnit/e.php?MTID=m3fe2dba8b09d0c34e4c6c33e8c0db959"
     },
   
     "4PSPmon": {
