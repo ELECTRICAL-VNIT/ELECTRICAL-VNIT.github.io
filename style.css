@@ -8,6 +8,7 @@
   
 }
 
+
 * {
   font-family: 'Roboto', sans-serif;
   text-transform: capitalize;
@@ -51,7 +52,10 @@ html {
   font-weight: 400;
   color: #aaa;
 }
-
+table{
+  border-spacing: 0;
+  padding: 0;
+}
 header {
   width: 96%;
   background: #fff;
